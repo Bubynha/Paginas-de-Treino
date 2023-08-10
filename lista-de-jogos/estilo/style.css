@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+/* Mobile First */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,body {
+    background-color: aqua;
+}
+
+li {
+    display: block;
+    width: 80vw;
+    height: 100px;
+    display: block;
+    background-color: white;
+    border: 1px solid black;
+}
