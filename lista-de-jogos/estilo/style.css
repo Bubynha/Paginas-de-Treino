@@ -10,7 +10,7 @@
 
 html,body {
     background-color: aqua;
-    background: url(../imagem/NPSS1.png);
+    background: url(../imagem/NPSS1-1.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -19,15 +19,40 @@ html,body {
 
 header {
     display: block;
-    background-color: aliceblue;
-    text-align: center;
+    color: white;
+    background-color: rgb(27, 27, 66);
+    border-bottom: 1px solid black;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.281);
+
 }
 
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+nav > ul > li  {
+    display: inline-block;
+    list-style-type: none;
+    text-align: left;
+    margin-left: 10px;
+    padding: 7px;
+    width: 75px;
+    background-color: rgb(20, 20, 48);  
+}
+
+nav > ul > li:hover {
+    background-color: rgb(66, 66, 165);
+}
 div#intro {
+    margin: 20px;
+    border: 1px solid black;
     display: block;
-    background-color: aliceblue;
+    background-color: white;
     text-align: center;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.281);
+    padding: 10px;
+    border-radius: 10px;
 }
 
 div#intro > h2 {
@@ -39,7 +64,7 @@ div#intro > p {
     text-align: center;
 }
 
-ul {
+section ul {
     display: block;
     margin-top: 10px;
     margin-left: 10%;
@@ -47,7 +72,7 @@ ul {
     margin-right: 10%;
 }
 
-ul > li {
+section li {
     display: block;
     width: 80vw;
     height: 120px;
