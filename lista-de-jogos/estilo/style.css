@@ -130,18 +130,7 @@ div.genero {
     position: relative;
     width: 19%;
 }
-/*
-div.genero > p {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
 
-div.avaliacao {
-    display: none;
-}
-*/
 footer {
     text-align: center;
     padding: 10px;
