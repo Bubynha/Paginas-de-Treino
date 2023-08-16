@@ -109,7 +109,6 @@ div.imagem {
     background-position: center center;
     background-size: cover;
     border-radius: 10px;
-    float: left;
 }
 
 div.nome {
@@ -152,7 +151,7 @@ footer {
 
     div.nome {
         display:inline-block;
-        width: 200px;
+        width: 250px;
         border-right: 1px solid rgb(190, 189, 189);
         border-radius: 10px;
     }
@@ -161,13 +160,13 @@ footer {
         display: inline-block;
         position: relative;
         width: 150px;
+        height: 100%;
     }
-
+    
     div.genero > p {
         display: block;
         position: absolute;
         text-align: center;
-        width: 50px;
         top: 50%;
         left: 50%;
         transform: translate(-50%,-50%);
