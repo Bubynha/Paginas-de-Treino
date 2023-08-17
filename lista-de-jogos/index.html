@@ -4,14 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista 2023</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="shortcut icon" href="./imagem/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilo/style.css">
     <link rel="stylesheet" href="estilo/outras-midias.css">
+    
 </head>
 <body>
     <header>
         <h1>Minha Gameplay</h1>
-        <nav>
+        <!-- icone -->
+        <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+        <nav id="menu">
             <ul>
                 <li>Lista 2021</li>
                 <li>Lista 2022</li>
@@ -53,5 +58,14 @@
     <footer>
         <p>Site criado por Bruno</p>
     </footer>
+    <script>
+        function clickMenu() {
+            if (menu.style.display == 'block'){
+                menu.style.display = 'none' 
+            }else{
+                menu.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
