@@ -11,16 +11,16 @@
     <link rel="stylesheet" href="estilo/outras-midias.css">
     
 </head>
-<body>
+<body onresize="trocaTamanho()">
     <header>
         <h1>Minha Gameplay</h1>
         <!-- icone -->
         <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
         <nav id="menu">
             <ul>
-                <li>Lista 2021</li>
-                <li>Lista 2022</li>
-                <li>Lista 2023</li>
+                <li><a href="#">Lista 2021</a></li>
+                <li><a href="#">Lista 2022</a></li>
+                <li><a href="#">Lista 2023</a></li>
             </ul>
         </nav>
     </header>
@@ -49,6 +49,7 @@
                     </div>
                     <div class="avaliacao">
                         <!-- avaliação -->
+                        <p>Muito Bom</p>
                     </div>
                 </li>
                 
@@ -65,6 +66,17 @@
             }else{
                 menu.style.display = 'block'
             }
+        }
+
+        // SCRIPT PARA TROCA DE MENU QUANDO TROCAE TAMANHO DA TELA
+        
+        function trocaTamanho(){
+            if (window.innerWidth >= 768) 
+            {
+                menu.style.display = 'block'
+            } else {
+                menu.style.display = 'none'
+            }   
         }
     </script>
 </body>

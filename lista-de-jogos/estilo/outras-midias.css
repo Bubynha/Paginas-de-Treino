@@ -9,5 +9,64 @@
     Grandes Telas: acima de 1200px 
 */
 
+@media screen and (min-width: 768px){
+    span#burguer {
+        display: none;
+    }
+
+    nav {
+        display: block;
+    }
+
+    header li {
+        display: inline-block;
+        margin-left: 3px;
+    }
+
+    nav > ul > li > a {
+        border: 1px solid rgb(20, 20, 48);
+        border-radius: 3px;
+    }
+
+    nav > ul > li > a:hover {
+        transition: 0.3s;
+    }
+
+    main {
+        max-width: 900px;
+        margin: auto;
+    }
+
+    ul#lista-jogos > li {
+        max-width: 768px;
+        height: 120px;
+    }
+
+    div.nome {
+        max-width: 300px;
+    }
+    div.genero {
+        width: 220px;
+        border-right: 1px solid rgb(190, 189, 189);
+        border-radius: 10px;
+    }
+
+    div.avaliacao {
+        display: inline-block;
+        width: 200px;
+        height: 100%;
+        position: relative;
+    }
+
+    div.avaliacao > p {
+        display: block;
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+}
+
 
 
