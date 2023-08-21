@@ -43,17 +43,17 @@
     }
 
     div.nome {
-        max-width: 300px;
+        width: 320px;
     }
     div.genero {
-        width: 220px;
+        width: 180px;
         border-right: 1px solid rgb(190, 189, 189);
         border-radius: 10px;
     }
 
     div.avaliacao {
         display: inline-block;
-        width: 200px;
+        width: 170px;
         height: 100%;
         position: relative;
     }
