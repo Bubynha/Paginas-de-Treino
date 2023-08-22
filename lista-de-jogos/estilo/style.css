@@ -4,7 +4,7 @@
 /* Mobile First */
 
 /* Cores
-
+#1b1b42
 #141430
 #845FAC
 #4242a5
@@ -32,7 +32,7 @@ body {
 header {
     display: block;
     color: white;
-    background-image:repeating-linear-gradient( to right,#141430,#845FAC,#6E81BC,#38A8D0) ;
+    background-image:linear-gradient( to right,#1b1b42,#4242a5) ;
     border-bottom: 1px solid black;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.281);
 }
@@ -175,7 +175,7 @@ footer {
     text-align: center;
     padding: 10px;
     color: white;
-    background-color: rgb(27, 27, 66);
+    background-image:linear-gradient( to right,#1b1b42,#4242a5) ;
     font-size: 0.9em;
 }
 
