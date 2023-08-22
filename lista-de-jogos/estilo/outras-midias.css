@@ -10,6 +10,9 @@
 */
 
 @media screen and (min-width: 768px){
+    body {
+        background-image: url(../imagem/background-pc.jpg);
+    }
     span#burguer {
         display: none;
     }
