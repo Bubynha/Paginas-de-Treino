@@ -32,14 +32,14 @@ body {
 header {
     display: block;
     color: white;
-    background-image:linear-gradient( to right,#1b1b42,#4242a5) ;
+    background-image:linear-gradient( to right,#1b1b42,#4242a5);
     border-bottom: 1px solid black;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.281);
 }
 
 h1 {
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.856);
 }
 
@@ -65,6 +65,7 @@ nav>ul>li>a {
     text-align: center;
     color: white;
     text-decoration: none;
+    font-weight: bold;
     padding: 10px;
     border-top: 2px solid rgb(66, 66, 165);
     background-color: #141430;
@@ -85,11 +86,11 @@ main {
 /* INTRODUÇÃO */
 div#intro {
     margin: 20px;
-    border: 1px solid black;
+    border: 1px solid #000000af;
     display: block;
     background-color: white;
     text-align: center;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.281);
+    box-shadow: 0px 0px 5px 0px rgb(0, 0, 0);
     padding: 10px;
     border-radius: 10px;
 }
@@ -102,7 +103,6 @@ div#intro>h2 {
 div#intro>p {
     text-align: center;
 }
-
 /* LISTA */
 
 /* centralizar usando flexbox */
@@ -117,7 +117,7 @@ ul#lista-jogos>li {
     width: 70vw;
     height: 120px;
     background-color: white;
-    border: 1px solid rgba(0, 0, 0, 0.685);
+    border: 1px solid #000000af;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0px 0px 5px 0px;
@@ -129,12 +129,37 @@ ul#lista-jogos>li:hover {
     background-color: rgb(208, 208, 209);
 }
 
+ul#lista-jogos>li#cabeca {
+    background-image:linear-gradient( to right,#1b1b42,#4242a5);
+    color: white;
+    font-weight: bold;
+    height: 50px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 5px 0px #000000af;
+}
+
+div#nimagem {
+    display: inline-block;
+    position: relative;
+    height: 100%;
+    box-shadow: none;
+    border-right: 1px solid rgb(138, 137, 137);
+}
+
+div#nimagem > p {
+    display: block;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 /* ESPAÇO COM IMAGEM */
 div.imagem {
     display: inline-block;
     border-right: 1px solid black;
     box-shadow: 0px 0px 5px 0px;
-    background-color: black;
     width: 80px;
     height: 100%;
     background-image: url(../imagem/sao-hr-dlc1.jpg);
@@ -177,6 +202,12 @@ footer {
     color: white;
     background-image:linear-gradient( to right,#1b1b42,#4242a5) ;
     font-size: 0.9em;
+}
+
+footer a {
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
 }
 
 @media screen and (orientation: landscape) {
