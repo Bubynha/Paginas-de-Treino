@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ul {
+    background-color: cyan;
+    height: 100%;
+    display: flex; /*ATIVANDO FLEXBOX*/
+    padding: 1px;
+    gap: 1px;
+    flex-flow: row wrap; /* MAIN AXIS - LINHA = QUEBRA DE LINHA*/
+    justify-content: center; /*ALINHAR ELEMENTOS MAIN AXIS*/
+}
+
+li {
+    list-style: none;
+    background-color: white;
+    width: 70vw;
+    height: 120px;
+    display: flex; /*FLEXBOX*/
+    align-items: stretch;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+ div {
+    height: 100%;
+}
+
+div.capinha {
+    display: block;
+    width: 80px;
+    background-color: black;
+    overflow: hidden;
+    border-right: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px; /*EIXO X - EIXO Y - BLUR- SPREAD*/
+}
+
+img {
+    width: 80px;
+}
+
+div.nome {
+    flex: 1; /* DISTRIBUI O ESPAÇO SOBRANDO DA CAIXA PAI */
+    display: flex; /*FLEXBOX*/
+    justify-content: center; /*ALINHAR ELEMENTOS MAIN AXIS*/
+    align-items: center;  /*ALINHAR ELEMENTOS CROSS AXIS*/
+}
+
+div.genero {
+    background-color: cornflowerblue;
+    display: none;
+}
+
+div.nota {
+    display: block;
+    width: 80px;
+    background-color: darkgoldenrod;
+    display: none;
+}
