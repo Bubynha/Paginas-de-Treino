@@ -4,18 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <!-- icone do menu-->
+
+    <link rel="shortcut icon" href="imagem/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilo/novo-estilo.css">
+    <link rel="stylesheet" href="novo-outras-midias.css">
 </head>
 <body>
     <header>
+        <h1>Jogando com Bubynha</h1>
         
+        <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+        
+        <nav>
+            <ul>
+                <li><a href="#" rel="next">Lista 2021</a></li>
+                <li><a href="#" rel="next">Lista 2022</a></li>
+                <li><a href="#" rel="next">Lista 2023</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <ul>
-            <li>
+        <ul id="lista">
+            <li> <!-- GALGUN -->
                 <div class="capinha">
                     <!-- IMAGEM -->
-                    <img src="imagem/imagem-1.png" alt="galgun">
+                    <img src="imagem/imagem-1.png" alt="galgun 2">
                 </div>
                 <div class="nome">
                     <!-- NOME -->
@@ -33,7 +48,7 @@
         </ul>
     </main>
     <footer>
-
+        <p>Site criado por <a href="https://github.com/Bubynha" target="_blank" rel="external">Bruno</a></p>
     </footer>
 </body>
 </html>
