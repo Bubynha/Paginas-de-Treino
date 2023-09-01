@@ -11,9 +11,21 @@
 
 @media screen and (min-width: 728px) {
     div.genero {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex: 1;
+        display: flex; /* ATIVANDO FLEXBOX*/
+        justify-content: center;/*ALINHAR ELEMENTOS MAIN AXIS*/
+        align-items: center;/* ALINHAR ELEMENTOS CROSS AXIS*/
+        flex: 1; /* DISTRIBUI O ESPAÇO SOBRANDO DA CAIXA PAI */
+    }
+
+    div.nota {
+        display: flex; /*FLEXBOX*/
+        justify-content: center; /*ALINHAR ELEMENTOS MAIN AXIS*/
+        align-items: center; /*ALINHAR ELEMENTOS CROSS AXIS*/
+        flex: 1; /* DISTRIBUI O ESPAÇO SOBRANDO DA CAIXA PAI */
+    }
+
+    li.cabeca > div.genero {
+        border-right: 1px solid white;
+        border-radius: 10px;
     }
 }

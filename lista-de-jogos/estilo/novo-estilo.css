@@ -22,8 +22,17 @@ header {
     text-align: center;
 }
 
- header h1 {
+header h1 {
     padding: 20px;
+}
+
+span#burguer {
+    display: block;
+    cursor: pointer;
+}
+
+nav#menu {
+    display: none;
 }
 
 nav ul {
@@ -37,6 +46,22 @@ nav > ul > li {
     padding: 10px;
     background-color: #141430;
     
+}
+
+section {
+    display: flex; /*ATIVANDO OFLEXBOX*/
+    justify-content: center; /*ALINHAR ELEMENTOS MAIN AXIS*/
+    align-items: center;  /*ALINHAR ELEMENTOS MAIN AXIS*/
+}
+
+div#intro {
+    width: 80vw;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px ;
 }
 
 ul#lista {
@@ -56,24 +81,37 @@ ul#lista li {
     height: 120px;
     display: flex; /*FLEXBOX*/
     align-items: stretch;
-    border: 1px solid rgb(180, 180, 180);
+    border: 1px solid black;
     border-radius: 10px;
-    box-shadow: 0px 0px 5px 0px;
+    box-shadow: 0px 0px 5px 0px ;
     margin-bottom: 10px;
 }
 
- div {
+ul#lista > li.cabeca {
+    height: 50px;
+    background-color: #141430;
+    color: white;
+}
+
+li.cabeca > div.capinha {
+    display: flex; /* ATIAVNDO FLEXBOX*/
+    justify-content: center; /*ALINHAR ELEMENTOS MAIN AXIS*/
+    align-items: center;  /*ALINHAR ELEMENTOS CROSS AXIS*/
+    border-right:1px solid white;
+    box-shadow: 0px 0px 0px 0px;
+}
+
+div {
     height: 100%;
 }
 
 div.capinha {
     display: block;
     width: 80px;
-    background-color: black;
     overflow: hidden;
     border-right: 1px solid black;
     border-radius: 10px;
-    box-shadow: 0px 0px 5px 0px; /*EIXO X - EIXO Y - BLUR- SPREAD*/
+    box-shadow: 0px 0px 5px 0px #313131; /*EIXO X - EIXO Y - BLUR- SPREAD*/
 }
 
 img {
@@ -81,6 +119,7 @@ img {
 }
 
 div.nome {
+    text-align: center;
     flex: 1; /* DISTRIBUI O ESPAÇO SOBRANDO DA CAIXA PAI */
     display: flex; /*FLEXBOX*/
     justify-content: center; /*ALINHAR ELEMENTOS MAIN AXIS*/
@@ -88,21 +127,21 @@ div.nome {
 }
 
 div.genero {
-    background-color: cornflowerblue;
+    text-align: center;
     display: none;
+    border-right: 1px solid black;
+    border-radius: 10px;
 }
 
 div.nota {
-    display: block;
-    width: 80px;
-    background-color: darkgoldenrod;
+    text-align: center;
     display: none;
 }
 
 footer {
     text-align: center;
     padding: 10px;
-    border: 1px solid black;
+    border-top: 1px solid black;
     background-color: aquamarine;
 }
 
@@ -114,11 +153,18 @@ a {
 @media screen and (orientation:landscape) {
     div.nome {
         flex: 2; /* DISTRIBUI O ESPAÇO SOBRANDO DA CAIXA PAI */
+        border-right: 1px solid black;
+        border-radius: 10px;
     }
     div.nota {
         display: flex; /*FLEXBOX*/
         justify-content: center; /*ALINHAR ELEMENTOS MAIN AXIS*/
         align-items: center; /*ALINHAR ELEMENTOS CROSS AXIS*/
         flex: 1; /* DISTRIBUI O ESPAÇO SOBRANDO DA CAIXA PAI */
+    }
+
+    li.cabeca > div.nome {
+        border-right: 1px solid white;
+        border-radius: 10px;
     }
 }

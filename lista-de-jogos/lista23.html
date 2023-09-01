@@ -11,44 +11,101 @@
     <link rel="stylesheet" href="estilo/novo-estilo.css">
     <link rel="stylesheet" href="novo-outras-midias.css">
 </head>
-<body>
+
+<body onresize="trocaTamanho()">
     <header>
         <h1>Jogando com Bubynha</h1>
         
         <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
         
-        <nav>
+        <nav id="menu">
             <ul>
                 <li><a href="#" rel="next">Lista 2021</a></li>
                 <li><a href="#" rel="next">Lista 2022</a></li>
                 <li><a href="#" rel="next">Lista 2023</a></li>
             </ul>
         </nav>
+
     </header>
+
     <main>
-        <ul id="lista">
-            <li> <!-- GALGUN -->
-                <div class="capinha">
-                    <!-- IMAGEM -->
-                    <img src="imagem/imagem-1.png" alt="galgun 2">
-                </div>
-                <div class="nome">
-                    <!-- NOME -->
-                    <h1>item1</h1>
-                </div>
-                <div class="genero">
-                    <!-- GENERO -->
-                    <h1>item1</h1>
-                </div>
-                <div class="nota">
-                    <!-- AVALIAÇAO -->
-                    <h1>item1</h1>
-                </div>
-            </li>
-        </ul>
+
+        <section >
+            <div id="intro">
+                <h2>
+                    Lista 2023
+                </h2>
+                <p>Lista com todos os jogos terminados no ano de 2023.</p>
+                <p>*Lista ordenada do mais recente ao mais antigo.</p>
+            </div>
+        </section>
+        <section>
+            <ul id="lista">
+                <li class="cabeca">
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <h3>Box Art</h3>
+                    </div>
+                    <div class="nome">
+                        <!-- NOME -->
+                        <h3>Nome</h3>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <h3>Gênero</h3>
+                    </div>
+                    <div class="nota">
+                        <!-- AVALIAÇAO -->
+                        <h3>Avaliação</h3>
+                    </div>
+                </li>
+                <li> <!-- GALGUN -->
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-1.png" alt="galgun 2">
+                    </div>
+                    <div class="nome">
+                        <!-- NOME -->
+                        <h1>item1</h1>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <h1>Survivor Horror</h1>
+                    </div>
+                    <div class="nota">
+                        <!-- AVALIAÇAO -->
+                        <h1>Muito Bom</h1>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
     </main>
+
     <footer>
         <p>Site criado por <a href="https://github.com/Bubynha" target="_blank" rel="external">Bruno</a></p>
     </footer>
+
+    <script>
+        // ABRIR E FECHAR MENU
+        function clickMenu() {
+            if (menu.style.display == 'block'){
+                menu.style.display = 'none'
+            } else { 
+                menu.style.display = 'block'
+            }
+        }
+        // Quando id menu (nav) estiver com style display block, troque para none, se não troque par ablock
+
+        // TROCA DE ESTILO DE MENU PARA TELAS GRANDES
+        function trocaTamanho() {
+            if (window.innerWidth >= 728) {
+                menu.style.display = 'block'
+           } else {
+            menu.style.display = 'none'
+           }
+        }
+        // Quando a janela tiver um tamanho maior que 728px, troque o valor de display do ID Menu (nav) para Block, senão deixe none
+    </script>
 </body>
 </html>
