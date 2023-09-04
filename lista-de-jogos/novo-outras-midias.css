@@ -10,6 +10,45 @@
 */
 
 @media screen and (min-width: 728px) {
+
+    body {
+        background-image: url(imagem/background-pc.jpg);
+    }
+
+    span#burguer {
+        display: none;
+    }
+
+    nav#menu {
+        display: block;
+    }
+
+    nav#menu ul {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 5px;
+        gap: 5px;
+    }
+
+    nav#menu li {
+        display: block;
+        transition: 0.6s;
+        border: 1px solid black;
+        border-bottom: 0px;
+    }
+
+    nav#menu li :hover {
+        transition: 0.5s;
+    }
+    
+    div#intro {
+        max-width: 870px;
+    }
+
+    ul#lista {
+        max-width: 728px;
+    }
+
     div.genero {
         display: flex; /* ATIVANDO FLEXBOX*/
         justify-content: center;/*ALINHAR ELEMENTOS MAIN AXIS*/

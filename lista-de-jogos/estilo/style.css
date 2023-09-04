@@ -22,7 +22,7 @@
 html,
 body {
     background-color: aqua;
-    background: url(../imagem/NPSS1-2.jpg);
+    background: url(../imagem/background-mobile.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -67,7 +67,7 @@ nav>ul>li>a {
     text-decoration: none;
     font-weight: bold;
     padding: 10px;
-    border-top: 2px solid rgb(66, 66, 165);
+    border-top: 2px solid #4242a5;
     background-color: #141430;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.24);
 }
