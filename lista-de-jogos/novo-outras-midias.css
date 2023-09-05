@@ -32,9 +32,13 @@
 
     nav#menu li {
         display: block;
-        transition: 0.6s;
-        border: 1px solid black;
+        transition: 0.4s;
+        border: 1px solid #141430;
         border-bottom: 0px;
+    }
+
+    nav#menu a {
+        border-radius: 3px;
     }
 
     nav#menu li :hover {
@@ -47,6 +51,10 @@
 
     ul#lista {
         max-width: 728px;
+    }
+
+    ul#lista li:hover {
+        transition: 0.2s;
     }
 
     div.genero {
@@ -64,7 +72,7 @@
     }
 
     li.cabeca > div.genero {
-        border-right: 1px solid white;
+        border-right: 1px solid #8a8989;
         border-radius: 10px;
     }
 }
