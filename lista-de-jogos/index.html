@@ -1,815 +1,890 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista 2023</title>
 
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="shortcut icon" href="./imagem/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="estilo/style.css">
-    <link rel="stylesheet" href="estilo/outras-midias.css">
-    <link rel="stylesheet" href="estilo/lista-23-imagem.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <!-- icone do menu-->
 
+    <link rel="shortcut icon" href="imagem/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilo/novo-estilo.css">
+    <link rel="stylesheet" href="estilo/novo-outras-midias.css">
 </head>
 
 <body onresize="trocaTamanho()">
     <header>
-        <h1>Minha Gameplay</h1>
-        <!-- icone -->
+        <h1>Jogando com Bubynha</h1>
+        
         <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+        
         <nav id="menu">
             <ul>
-                <li><a href="#">Lista 2021</a></li>
-                <li><a href="#">Lista 2022</a></li>
-                <li><a href="https://bubynha.github.io/Paginas-de-Treino/lista-de-jogos/">Lista 2023</a></li>
+                <li><a href="#" rel="next">Lista 2021</a></li>
+                <li><a href="#" rel="next">Lista 2022</a></li>
+                <li><a href="#" rel="next">Lista 2023</a></li>
             </ul>
         </nav>
+
     </header>
+
     <main>
-        <section>
+
+        <section >
             <div id="intro">
-                <h2>Lista 2023</h2>
-                <p>Lista com todos os jogos que consegui terminar em 2023.</p>
-                
+                <h2>
+                    Lista 2023
+                </h2>
+                <p>Lista com todos os jogos terminados no ano de 2023.</p>
+                <p>*Lista ordenada do mais recente ao mais antigo.</p>
             </div>
-            <ul id="lista-jogos">
-                <li id="cabeca"> <!-- GAl GUN-->
-                    <div id="nimagem" class=imagem>
-                        <!-- Imagem -->
+        </section>
+        <section>
+            <ul id="lista">
+                <li class="cabeca">
+                    <div class="capinha">
+                        <!-- IMAGEM -->
                         <p>Box Art</p>
                     </div>
                     <div class="nome">
-                        <!-- nome do jogo -->
+                        <!-- NOME -->
                         <p>Nome</p>
                     </div>
-
                     <div class="genero">
-                        <!-- tipo do jogo -->
+                        <!-- GENERO -->
                         <p>Gênero</p>
                     </div>
-                    <div class="avaliacao">
-                        <!-- avaliação -->
-                        <p>Avaliação</p>
+                    <div class="nota">
+                        <!-- AVALIAÇAO -->
+                        <p>O que achei</p>
                     </div>
                 </li>
-                <li> <!-- GAl GUN-->
-                    <div id="gal-gun" class="imagem">
-                        <!-- Imagem -->
-                    </div>
-                    <div class="nome">
-                        <!-- nome do jogo -->
-                        <p>Gal Gun 2</p>
-                    </div>
 
-                    <div class="genero">
-                        <!-- tipo do jogo -->
-                        <p>Real Shooter</p>
-                    </div>
-                    <div class="avaliacao">
-                        <!-- avaliação -->
-                        <p>Legal</p>
-                    </div>
-                </li>
-                <li><!---->
-                    <div id="soul-eater" class="imagem">
-                        <!-- Imagem -->
+                <li> <!-- Yugioh tag force 2 -->
+                    <div class="capinha legal">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-44.png" alt="Tag Force 2">
                     </div>
                     <div class="nome">
-                        <!-- nome do jogo -->
-                        <p>Soul Eater Battle Resonance</p>
+                        <!-- NOME -->
+                        <p>Yu-Gi-Oh GX Tag Force 2</p>
                     </div>
                     <div class="genero">
-                        <!-- tipo do jogo -->
-                        <p>Luta</p>
+                        <!-- GENERO -->
+                        <p>Card Game</p>
                     </div>
-                    <div class="avaliacao">
-                        <!-- avaliação -->
-                        <p>Legal</p>
-                    </div>
-                </li>
-                <li><!---->
-                    <div id="sonic-lost" class="imagem">
-                        <!-- Imagem -->
-                    </div>
-                    <div class="nome">
-                        <!-- nome do jogo -->
-                        <p>Sonic Lost World</p>
-                    </div>
-
-                    <div class="genero">
-                        <!-- tipo do jogo -->
-                        <p>Plataforma</p>
-                    </div>
-                    <div class="avaliacao">
-                        <!-- avaliação -->
-                        <p>Legal</p>
-                    </div>
-                </li>
-                <li><!---->
-                    <div id="lego-city" class="imagem">
-                        <!-- Imagem -->
-                    </div>
-                    <div class="nome">
-                        <!-- nome do jogo -->
-                        <p>Lego City Undercover</p>
-                    </div>
-
-                    <div class="genero">
-                        <!-- tipo do jogo -->
-                        <p>Aventura</p>
-                    </div>
-                    <div class="avaliacao">
-                        <!-- avaliação -->
-                        <p>Legal</p>
-                    </div>
-                </li>
-                <li><!---->
-                    <div id="kon" class="imagem">
-                        <!-- Imagem -->
-                    </div>
-                    <div class="nome">
-                        <!-- nome do jogo -->
-                        <p>K-On! Houkago Live!! HD Ver.</p>
-                    </div>
-
-                    <div class="genero">
-                        <!-- tipo do jogo -->
-                        <p>Ritmo</p>
-                    </div>
-                    <div class="avaliacao">
-                        <!-- avaliação -->
-                        <p>Legal</p>
-                    </div>
-                </li>
-                <li><!---->
-                    <div id="nfs-payback" class="imagem">
-                        <!-- Imagem -->
-                    </div>
-                    <div class="nome">
-                        <p>Need for Speed Payback</p>
-                    </div>
-                    <div class="genero">
-                        <!-- tipo do jogo -->
-                        <p>Corrida</p>
-                    </div>
-                    <div class="avaliacao">
-                        <!-- avaliação -->
-                        <p>Legal</p>
-                    </div>
-                </li>
-                <li><!---->
-                    <div id="railgun" class="imagem">
-                        <!-- Imagem -->
-                    </div>
-                    <div class="nome">
-                        <!-- nome do jogo -->
-                        <p>Toaru Kangaku no Railgun</p>
-                    </div>
-
-                    <div class="genero">
-                        <!-- tipo do jogo -->
-                        <p>Visual Novel</p>
-                    </div>
-                    <div class="avaliacao">
-                        <!-- avaliação -->
+                    <div class="nota legalzinho">
+                        <!-- AVALIAÇAO -->
                         <p>Legalzinho</p>
                     </div>
                 </li>
-                <li><!---->
-                    <div id="top-nep" class="imagem">
-                        <!-- Imagem -->
+
+                <li> <!-- Sonic Generations -->
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-43.png" alt="Sonic Generations">
                     </div>
                     <div class="nome">
-                        <!-- nome do jogo -->
-                        <p>Dimension Tripper Neptune TOP NEP</p>
+                        <!-- NOME -->
+                        <p>Sonic Generations</p>
                     </div>
-
                     <div class="genero">
-                        <!-- tipo do jogo -->
-                        <p>Navinha</p>
+                        <!-- GENERO -->
+                        <p>Plataforma</p>
                     </div>
-                    <div class="avaliacao">
-                        <!-- avaliação -->
-                        <p>Muito Bom</p>
-                    </div>
-                </li>
-                <li><!---->
-                    <div id="omega-quintet" class="imagem">
-                        <!-- Imagem -->
-                    </div>
-                    <div class="nome">
-                        <!-- nome do jogo -->
-                        <p>Omega Quintet</p>
-                    </div>
-
-                    <div class="genero">
-                        <!-- tipo do jogo -->
-                        <p>JRPG</p>
-                    </div>
-                    <div class="avaliacao">
-                        <!-- avaliação -->
+                    <div class="nota legalzinho">
+                        <!-- AVALIAÇAO -->
                         <p>Legalzinho</p>
                     </div>
                 </li>
-                <li><!---->
-                    <div id="mighty" class="imagem">
-                        <!-- Imagem -->
+                <li> <!-- Senran Kagura Burst Re:Newal -->
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-42.png" alt="Senran Kagura Burst Re:Newal">
                     </div>
                     <div class="nome">
-                        <!-- nome do jogo -->
-                        <p>Mighty No. 9</p>
-                    </div>
-
-                    <div class="genero">
-                        <!-- tipo do jogo -->
-                        <p>Plataforma</p>
-                    </div>
-                    <div class="avaliacao">
-                        <!-- avaliação -->
-                        <p>Ok</p>
-                    </div>
-                </li>
-                <li><!---->
-                    <div id="kof-2002um" class="imagem">
-                        <!-- Imagem -->
-                    </div>
-                    <div class="nome">
-                        <!-- nome do jogo -->
-                        <p>THE KING OF FIGHTERS 2002 UNLIMITED MATCH</p>
-                    </div>
-
-                    <div class="genero">
-                        <!-- tipo do jogo -->
-                        <p>Luta</p>
-                    </div>
-                    <div class="avaliacao">
-                        <!-- avaliação -->
-                        <p>Muito Bom</p>
-                    </div>
-                </li>
-                <li><!---->
-                    <div id="dkc3" class="imagem">
-                        <!-- Imagem -->
-                    </div>
-                    <div class="nome">
-                        <!-- nome do jogo -->
-                        <p>Donkey Kong Country 3: Dixie Kong's Double Trouble!</p>
-                    </div>
-
-                    <div class="genero">
-                        <!-- tipo do jogo -->
-                        <p>Plataforma</p>
-                    </div>
-                    <div class="avaliacao">
-                        <!-- avaliação -->
-                        <p>Legal</p>
-                    </div>
-                </li>
-                <li><!---->
-                    <div id="final-fight3" class="imagem">
-                        <!-- Imagem -->
-                    </div>
-                    <div class="nome">
-                        <!-- nome do jogo -->
-                        <p>Final Fight 3</p>
-                    </div>
-
-                    <div class="genero">
-                        <!-- tipo do jogo -->
-                        <p>Briga de Rua</p>
-                    </div>
-                    <div class="avaliacao">
-                        <!-- avaliação -->
-                        <p>Legalzinho</p>
-                    </div>
-                </li>
-                <li><!---->
-                    <div id="mad-max" class="imagem">
-                        <!-- Imagem -->
-                    </div>
-                    <div class="nome">
-                        <!-- nome do jogo -->
-                        <p>Mad Max</p>
-                    </div>
-
-                    <div class="genero">
-                        <!-- tipo do jogo -->
-                        <p>Ação</p>
-                    </div>
-                    <div class="avaliacao">
-                        <!-- avaliação -->
-                        <p>Legalzinho</p>
-                    </div>
-                </li>
-                <li><!---->
-                    <div id="sonic4-ep1" class="imagem">
-                        <!-- Imagem -->
-                    </div>
-                    <div class="nome">
-                        <!-- nome do jogo -->
-                        <p>Sonic The Hedgehog 4 Episode I</p>
+                        <!-- NOME -->
+                        <p>Senran Kagura <br> Burst Re:Newal</p>
                     </div>
                     <div class="genero">
-                        <!-- tipo do jogo -->
-                        <p>Plataforma</p>
-                    </div>
-                    <div class="avaliacao">
-                        <!-- avaliação -->
-                        <p>Ok</p>
-                    </div>
-                </li>
-                <li><!---->
-                    <div id="speed-gonzales" class="imagem">
-                        <!-- Imagem -->
-                    </div>
-                    <div class="nome">
-                        <!-- nome do jogo -->
-                        <p>Speed Gonzales Los Gatos Bandidos</p>
-                    </div>
-                    <div class="genero">
-                        <!-- tipo do jogo -->
-                        <p>Plataforma</p>
-                    </div>
-                    <div class="avaliacao">
-                        <!-- avaliação -->
-                        <p>Ok</p>
-                    </div>
-                </li>
-                <li><!---->
-                    <div id="lego-incriveis" class="imagem">
-                        <!-- Imagem -->
-                    </div>
-                    <div class="nome">
-                        <!-- nome do jogo -->
-                        <p>LEGO Os Incríveis</p>
-                    </div>
-                    <div class="genero">
-                        <!-- tipo do jogo -->
-                        <p>Aventura</p>
-                    </div>
-                    <div class="avaliacao">
-                        <!-- avaliação -->
-                        <p>Legal</p>
-                    </div>
-                </li>
-                <li><!---->
-                    <div id="FF13" class="imagem">
-                        <!-- Imagem -->
-                    </div>
-                    <div class="nome">
-                        <!-- nome do jogo -->
-                        <p>Final Fantasy XIII</p>
-                    </div>
-
-                    <div class="genero">
-                        <!-- tipo do jogo -->
-                        <p>JRPG</p>
-                    </div>
-                    <div class="avaliacao">
-                        <!-- avaliação -->
-                        <p>Ok</p>
-                    </div>
-                </li>
-                <li><!---->
-                    <div id="Sparkster" class="imagem">
-                        <!-- Imagem -->
-                    </div>
-                    <div class="nome">
-                        <!-- nome do jogo -->
-                        <p>Sparkster</p>
-                    </div>
-
-                    <div class="genero">
-                        <!-- tipo do jogo -->
-                        <p>Plataforma</p>
-                    </div>
-                    <div class="avaliacao">
-                        <!-- avaliação -->
-                        <p>Ok</p>
-                    </div>
-                </li>
-                <li><!---->
-                    <div id="pw4" class="imagem">
-                        <!-- Imagem -->
-                    </div>
-                    <div class="nome">
-                        <!-- nome do jogo -->
-                        <p>One Piece Pirate Warriors 4</p>
-                    </div>
-
-                    <div class="genero">
-                        <!-- tipo do jogo -->
-                        <p>Musou</p>
-                    </div>
-                    <div class="avaliacao">
-                        <!-- avaliação -->
-                        <p>Muito Bom</p>
-                    </div>
-                </li>
-                <li><!---->
-                    <div id="gogoackman" class="imagem">
-                        <!-- Imagem -->
-                    </div>
-                    <div class="nome">
-                        <!-- nome do jogo -->
-                        <p>Go Go Ackman</p>
-                    </div>
-
-                    <div class="genero">
-                        <!-- tipo do jogo -->
-                        <p>Plataforma</p>
-                    </div>
-                    <div class="avaliacao">
-                        <!-- avaliação -->
-                        <p>Legal</p>
-                    </div>
-                </li>
-                <li><!---->
-                    <div id="re-rev2-ep1" class="imagem">
-                        <!-- Imagem -->
-                    </div>
-                    <div class="nome">
-                        <!-- nome do jogo -->
-                        <p>Resident Evil Revelations 2 Episode 1</p>
-                    </div>
-
-                    <div class="genero">
-                        <!-- tipo do jogo -->
-                        <p>Survivor Horror</p>
-                    </div>
-                    <div class="avaliacao">
-                        <!-- avaliação -->
-                        <p>Legalzinho</p>
-                    </div>
-                </li>
-                <li><!---->
-                    <div id="doa6" class="imagem">
-                        <!-- Imagem -->
-                    </div>
-                    <div class="nome">
-                        <!-- nome do jogo -->
-                        <p>Dead or Alive 6</p>
-                    </div>
-
-                    <div class="genero">
-                        <!-- tipo do jogo -->
-                        <p>Luta</p>
-                    </div>
-                    <div class="avaliacao">
-                        <!-- avaliação -->
-                        <p>Muito Bom</p>
-                    </div>
-                </li>
-                <li><!---->
-                    <div id="sk-estival" class="imagem">
-                        <!-- Imagem -->
-                    </div>
-                    <div class="nome">
-                        <!-- nome do jogo -->
-                        <p>Senran Kagura Estival Versus</p>
-                    </div>
-
-                    <div class="genero">
-                        <!-- tipo do jogo -->
+                        <!-- GENERO -->
                         <p>Hack Slash</p>
                     </div>
-                    <div class="avaliacao">
-                        <!-- avaliação -->
-                        <p>Muito Bom</p>
-                    </div>
-                </li>
-                <li><!---->
-                    <div id="lego-avengers" class="imagem">
-                        <!-- Imagem -->
-                    </div>
-                    <div class="nome">
-                        <!-- nome do jogo -->
-                        <p>LEGO Avengers</p>
-                    </div>
-
-                    <div class="genero">
-                        <!-- tipo do jogo -->
-                        <p>Aventura</p>
-                    </div>
-                    <div class="avaliacao">
-                        <!-- avaliação -->
-                        <p>Legalzinho</p>
-                    </div>
-                </li>
-                <li><!---->
-                    <div id="sao-hr" class="imagem">
-                        <!-- Imagem -->
-                    </div>
-                    <div class="nome">
-                        <!-- nome do jogo -->
-                        <p>Sword Art Online Hollow Realization</p>
-                    </div>
-
-                    <div class="genero">
-                        <!-- tipo do jogo -->
-                        <p>JRPG</p>
-                    </div>
-                    <div class="avaliacao">
-                        <!-- avaliação -->
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
                         <p>Legal</p>
                     </div>
                 </li>
-                <li><!---->
-                    <div id="megaman" class="imagem">
-                        <!-- Imagem -->
+                <li> <!-- htoL#NiQ:The Firefly Diary -->
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-41.jpg" alt="htoL#NiQ:The Firefly Diary">
                     </div>
                     <div class="nome">
-                        <!-- nome do jogo -->
+                        <!-- NOME -->
+                        <p>htoL#NiQ:The Firefly Diary</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Puzzle</p>
+                    </div>
+                    <div class="nota ok">
+                        <!-- AVALIAÇAO -->
+                        <p>Ok</p>
+                    </div>
+                </li>
+                <li> <!-- Atelier Sophie 2 -->
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-40.jpg" alt="Atelier Sophie 2">
+                    </div>
+                    <div class="nome">
+                        <!-- NOME -->
+                        <p>Atelier Sophie 2: <br> The Alchemist Mysterious Dream</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>JRPG</p>
+                    </div>
+                    <div class="nota muitobom">
+                        <!-- AVALIAÇAO -->
+                        <p>Muito Bom</p>
+                    </div>
+                </li>
+                <li> <!-- LEGO DC Super-Villains -->
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-39.jpg" alt="LEGO DC Super-Villains">
+                    </div>
+                    <div class="nome">
+                        <!-- NOME -->
+                        <p>LEGO DC Super-Villains</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Aventura</p>
+                    </div>
+                    <div class="nota muitobom">
+                        <!-- AVALIAÇAO -->
+                        <p>Muito Bom</p>
+                    </div>
+                </li>
+                <li> <!-- Kill la Kill IF -->
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-38.jpg" alt="Kill la Kill IF">
+                    </div>
+                    <div class="nome">
+                        <!-- NOME -->
+                        <p>Kill la Kill IF</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Luta</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li> <!-- Naruto Shippuden Ultimate Ninja Storm 4 Road to Boruto -->
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-37.jpg" alt="Naruto Storm 4 Road to Boruto">
+                    </div>
+                    <div class="nome">
+                        <!-- NOME -->
+                        <p>Naruto Shippuden<br>Ultimate Ninja Storm 4<br>Road to Boruto</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Luta</p>
+                    </div>
+                    <div class="nota muitobom">
+                        <!-- AVALIAÇAO -->
+                        <p>Muito Bom</p>
+                    </div>
+                </li>
+                <li> <!-- Koihime Embu -->
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-36.jpg" alt="koihime Embu">
+                    </div>
+                    <div class="nome">
+                        <!-- NOME -->
+                        <p>Koihime Embu</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Luta</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li> <!-- Sonic the Hedgehog 2 (SMS) -->
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-35.jpg" alt="Sonic 2 Master System">
+                    </div>
+                    <div class="nome">
+                        <!-- NOME -->
+                        <p>Sonic the Hedgehog 2 (SMS)</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Plataforma</p>
+                    </div>
+                    <div class="nota muitobom">
+                        <!-- AVALIAÇAO -->
+                        <p>Muito Bom</p>
+                    </div>
+                </li>
+                <li> <!-- Cyberdimension Neptunia: 4 Goddesses Online -->
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-34.jpg" alt="galgun 2">
+                    </div>
+                    <div class="nome">
+                        <!-- NOME -->
+                        <p>Cyberdimension Neptunia: 4 <br> Goddesses Online</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>JRPG</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li> <!-- Megaman The Willy Wars -->
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-33.jpg" alt="Megaman The Willy Wars">
+                    </div>
+                    <div class="nome">
+                        <!-- NOME -->
+                        <p>Megaman The Willy Wars</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Plataforma</p>
+                    </div>
+                    <div class="nota muitobom">
+                        <!-- AVALIAÇAO -->
+                        <p>Muito Bom</p>
+                    </div>
+                </li>
+                <li> <!-- Megaman 3 -->
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-32.jpg" alt="Megaman 3">
+                    </div>
+                    <div class="nome">
+                        <!-- NOME -->
+                        <p>Megaman 3</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Plataforma</p>
+                    </div>
+                    <div class="nota muitobom">
+                        <!-- AVALIAÇAO -->
+                        <p>Muito Bom</p>
+                    </div>
+                </li>
+                <li> <!-- Senran Kagura Peach Beach Splash -->
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-31.jpg" alt="Senran Kagura Peach Beach Splash">
+                    </div>
+                    <div class="nome">
+                        <!-- NOME -->
+                        <p>Senran Kagura <br> Peach Beach Splash</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Shooter</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li> <!-- Tekken 7 -->
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-30.jpg" alt="Tekken 7">
+                    </div>
+                    <div class="nome">
+                        <!-- NOME -->
+                        <p>Tekken 7</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Luta</p>
+                    </div>
+                    <div class="nota muitobom">
+                        <!-- AVALIAÇAO -->
+                        <p>Muito Bom</p>
+                    </div>
+                </li>
+                <li> <!-- Megaman 2 -->
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-29.jpg" alt="Megaman 2">
+                    </div>
+                    <div class="nome">
+                        <!-- NOME -->
+                        <p>Megaman 2</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Plataforma</p>
+                    </div>
+                    <div class="nota muitobom">
+                        <!-- AVALIAÇAO -->
+                        <p>Muito Bom</p>
+                    </div>
+                </li>
+                <li> <!-- Sword Art Online Hollow Realization:
+                    Abyss of the Shrine Maiden (DLC) -->
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-28.jpg" alt="Sword Art Online Hollow Realization:
+                        Abyss of the Shrine Maiden (DLC)">
+                    </div>
+                    <div class="nome">
+                        <!-- NOME -->
+                        <p>Sword Art Online Hollow Realization:<br>Abyss of the Shrine Maiden (DLC)</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>JRPG</p>
+                    </div>
+                    <div class="nota ok">
+                        <!-- AVALIAÇAO -->
+                        <p>Ok</p>
+                    </div>
+                </li>
+                <li> <!-- Megaman -->
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-27.jpg" alt="Megaman">
+                    </div>
+                    <div class="nome">
+                        <!-- NOME -->
                         <p>Megaman</p>
                     </div>
                     <div class="genero">
-                        <!-- tipo do jogo -->
+                        <!-- GENERO -->
                         <p>Plataforma</p>
                     </div>
-                    <div class="avaliacao">
-                        <!-- avaliação -->
+                    <div class="nota muitobom">
+                        <!-- AVALIAÇAO -->
                         <p>Muito Bom</p>
                     </div>
                 </li>
-                <li><!---->
-                    <div id="sao-hw-dlc" class="imagem">
-                        <!-- Imagem -->
+                <li> <!-- Sword Art Online Hollow Realization -->
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-26.png" alt="Sword Art Online Hollow Realization">
                     </div>
                     <div class="nome">
-                        <!-- nome do jogo -->
-                        <p>Sword Art Online Hollow Realization: Abyss of the Shrine Maiden(DLC)</p>
+                        <!-- NOME -->
+                        <p>Sword Art Online <br> Hollow Realization</p>
                     </div>
-
                     <div class="genero">
-                        <!-- tipo do jogo -->
+                        <!-- GENERO -->
                         <p>JRPG</p>
                     </div>
-                    <div class="avaliacao">
-                        <!-- avaliação -->
-                        <p>Ok</p>
-                    </div>
-                </li>
-                <li><!---->
-                    <div id="megaman-2" class="imagem">
-                        <!-- Imagem -->
-                    </div>
-                    <div class="nome">
-                        <!-- nome do jogo -->
-                        <p>Megaman 2</p>
-                    </div>
-
-                    <div class="genero">
-                        <!-- tipo do jogo -->
-                        <p>Plataforma</p>
-                    </div>
-                    <div class="avaliacao">
-                        <!-- avaliação -->
-                        <p>Muito Bom</p>
-                    </div>
-                </li>
-                <li><!---->
-                    <div id="tekken7" class="imagem">
-                        <!-- Imagem -->
-                    </div>
-                    <div class="nome">
-                        <!-- nome do jogo -->
-                        <p>Tekken 7</p>
-                    </div>
-
-                    <div class="genero">
-                        <!-- tipo do jogo -->
-                        <p>Luta</p>
-                    </div>
-                    <div class="avaliacao">
-                        <!-- avaliação -->
-                        <p>Muito Bom</p>
-                    </div>
-                </li>
-                <li><!---->
-                    <div id="sk-pbs" class="imagem">
-                        <!-- Imagem -->
-                    </div>
-                    <div class="nome">
-                        <!-- nome do jogo -->
-                        <p>Senran Kagura Peach Beach Splash</p>
-                    </div>
-
-                    <div class="genero">
-                        <!-- tipo do jogo -->
-                        <p>Shooter</p>
-                    </div>
-                    <div class="avaliacao">
-                        <!-- avaliação -->
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
                         <p>Legal</p>
                     </div>
                 </li>
-                <li><!---->
-                    <div id="megaman-3" class="imagem">
-                        <!-- Imagem -->
+                <li> <!-- LEGO Avengers -->
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-25.jpg" alt="LEGO Avengers">
                     </div>
                     <div class="nome">
-                        <!-- nome do jogo -->
-                        <p>Megaman 3</p>
+                        <!-- NOME -->
+                        <p>LEGO Avengers</p>
                     </div>
-
                     <div class="genero">
-                        <!-- tipo do jogo -->
-                        <p>Plataforma</p>
-                    </div>
-                    <div class="avaliacao">
-                        <!-- avaliação -->
-                        <p>Muito Bom</p>
-                    </div>
-                </li>
-                <li><!---->
-                    <div id="megaman-willywars" class="imagem">
-                        <!-- Imagem -->
-                    </div>
-                    <div class="nome">
-                        <!-- nome do jogo -->
-                        <p>Megaman The Willy Wars</p>
-                    </div>
-
-                    <div class="genero">
-                        <!-- tipo do jogo -->
-                        <p>Plataforma</p>
-                    </div>
-                    <div class="avaliacao">
-                        <!-- avaliação -->
-                        <p>Muito Bom</p>
-                    </div>
-                </li>
-                <li><!---->
-                    <div id="neptunia-4go" class="imagem">
-                        <!-- Imagem -->
-                    </div>
-                    <div class="nome">
-                        <!-- nome do jogo -->
-                        <p>Cyberdimension Neptunia: 4 Goddesses Online</p>
-                    </div>
-
-                    <div class="genero">
-                        <!-- tipo do jogo -->
-                        <p>JRPG</p>
-                    </div>
-                    <div class="avaliacao">
-                        <!-- avaliação -->
-                        <p>Legal</p>
-                    </div>
-                </li>
-                <li><!---->
-                    <div id="sonic-2-sms" class="imagem">
-                        <!-- Imagem -->
-                    </div>
-                    <div class="nome">
-                        <!-- nome do jogo -->
-                        <p>Sonic the Hedgehog 2 <br>(Master System)</p>
-                    </div>
-
-                    <div class="genero">
-                        <!-- tipo do jogo -->
-                        <p>Plataforma</p>
-                    </div>
-                    <div class="avaliacao">
-                        <!-- avaliação -->
-                        <p>Muito Bom</p>
-                    </div>
-                </li>
-                <li><!---->
-                    <div id="koihime-enbu" class="imagem">
-                        <!-- Imagem -->
-                    </div>
-                    <div class="nome">
-                        <!-- nome do jogo -->
-                        <p>Koihime Embu</p>
-                    </div>
-
-                    <div class="genero">
-                        <!-- tipo do jogo -->
-                        <p>Luta</p>
-                    </div>
-                    <div class="avaliacao">
-                        <!-- avaliação -->
-                        <p>Legal</p>
-                    </div>
-                </li>
-                <li><!---->
-                    <div id="storm4-boruto" class="imagem">
-                        <!-- Imagem -->
-                    </div>
-                    <div class="nome">
-                        <!-- nome do jogo -->
-                        <p>Naruto Shippuden Ultimate Ninja Storm 4 Road to Boruto</p>
-                    </div>
-
-                    <div class="genero">
-                        <!-- tipo do jogo -->
-                        <p>Luta</p>
-                    </div>
-                    <div class="avaliacao">
-                        <!-- avaliação -->
-                        <p>Muito Bom</p>
-                    </div>
-                </li>
-                <li><!---->
-                    <div id="kill-if" class="imagem">
-                        <!-- Imagem -->
-                    </div>
-                    <div class="nome">
-                        <!-- nome do jogo -->
-                        <p>Kill la Kill IF</p>
-                    </div>
-
-                    <div class="genero">
-                        <!-- tipo do jogo -->
-                        <p>Luta</p>
-                    </div>
-                    <div class="avaliacao">
-                        <!-- avaliação -->
-                        <p>Legal</p>
-                    </div>
-                </li>
-                <li><!---->
-                    <div id="lego-dc-villians" class="imagem">
-                        <!-- Imagem -->
-                    </div>
-                    <div class="nome">
-                        <!-- nome do jogo -->
-                        <p>LEGO DC Super-Villains</p>
-                    </div>
-
-                    <div class="genero">
-                        <!-- tipo do jogo -->
+                        <!-- GENERO -->
                         <p>Aventura</p>
                     </div>
-                    <div class="avaliacao">
-                        <!-- avaliação -->
+                    <div class="nota legalzinho">
+                        <!-- AVALIAÇAO -->
+                        <p>Legalzinho</p>
+                    </div>
+                </li>
+                <li> <!-- Senran Kagura Estival Versus -->
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-24.jpg" alt="Senran Kagura Estival Versus">
+                    </div>
+                    <div class="nome">
+                        <!-- NOME -->
+                        <p>Senran Kagura <br> Estival Versus</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Hack Slash</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li> <!-- Dead or Alive 6 -->
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-23.jpg" alt="Dead or Alive 6">
+                    </div>
+                    <div class="nome">
+                        <!-- NOME -->
+                        <p>Dead or Alive 6</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Luta</p>
+                    </div>
+                    <div class="nota muitobom">
+                        <!-- AVALIAÇAO -->
                         <p>Muito Bom</p>
                     </div>
                 </li>
-                <li><!---->
-                    <div id="sophie2" class="imagem">
-                        <!-- Imagem -->
+                <li> <!-- Resident Evil Revelations 2 Episode 1 -->
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
                     </div>
                     <div class="nome">
-                        <!-- nome do jogo -->
-                        <p>Atelier Sophie 2</p>
+                        <!-- NOME -->
+                        <p>Resident Evil Revelations 2 <br> Episode 1</p>
                     </div>
-
                     <div class="genero">
-                        <!-- tipo do jogo -->
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li> <!-- Go Go Ackman -->
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-21.jpg" alt="Go Go Ackman">
+                    </div>
+                    <div class="nome">
+                        <!-- NOME -->
+                        <p>Go Go Ackman</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Plataforma</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li> <!-- One Piece Pirate Warriors 4 -->
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-20.jpg" alt="One Piece Pirate Warriors 4">
+                    </div>
+                    <div class="nome">
+                        <!-- NOME -->
+                        <p>One Piece <br> Pirate Warriors 4</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Musou</p>
+                    </div>
+                    <div class="nota muitobom">
+                        <!-- AVALIAÇAO -->
+                        <p>Muito Bom</p>
+                    </div>
+                </li>
+                <li> <!-- Sparkster -->
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-19.jpg" alt="Sparkster">
+                    </div>
+                    <div class="nome">
+                        <!-- NOME -->
+                        <p>Sparkster</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Plataforma</p>
+                    </div>
+                    <div class="nota ok">
+                        <!-- AVALIAÇAO -->
+                        <p>Ok</p>
+                    </div>
+                </li>
+                <li> <!-- Final Fantasy XIII -->
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-18.jpg" alt="Final Fantasy XIII">
+                    </div>
+                    <div class="nome">
+                        <!-- NOME -->
+                        <p>Final Fantasy XIII</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
                         <p>JRPG</p>
                     </div>
-                    <div class="avaliacao">
-                        <!-- avaliação -->
+                    <div class="nota ok">
+                        <!-- AVALIAÇAO -->
+                        <p>Ok</p>
+                    </div>
+                </li>
+                <li> <!-- LEGO Os Incríveis -->
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-17.jpg" alt="LEGO Os Incríveis">
+                    </div>
+                    <div class="nome">
+                        <!-- NOME -->
+                        <p>LEGO Os Incríveis</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Aventura</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li> <!-- Speed Gonzales Los Gatos Bandidos -->
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-16.jpg" alt="Speed Gonzales Los Gatos Bandidos">
+                    </div>
+                    <div class="nome">
+                        <!-- NOME -->
+                        <p>Speed Gonzales <br> Los Gatos Bandidos</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Plataforma</p>
+                    </div>
+                    <div class="nota ok">
+                        <!-- AVALIAÇAO -->
+                        <p>Ok</p>
+                    </div>
+                </li>
+                <li> <!-- Sonic The Hedgehog 4 Episode I -->
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-15.jpg" alt="Sonic The Hedgehog 4 Episode I">
+                    </div>
+                    <div class="nome">
+                        <!-- NOME -->
+                        <p>Sonic The Hedgehog 4 <br> Episode I</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Plataforma</p>
+                    </div>
+                    <div class="nota ok">
+                        <!-- AVALIAÇAO -->
+                        <p>Ok</p>
+                    </div>
+                </li>
+                <li> <!-- Mad Max -->
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-14.jpg" alt="Mad Max">
+                    </div>
+                    <div class="nome">
+                        <!-- NOME -->
+                        <p>Mad Max</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legalzinho">
+                        <!-- AVALIAÇAO -->
+                        <p>Legalzinho</p>
+                    </div>
+                </li>
+                <li> <!-- Final Fight 3 -->
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-13.png" alt="Final Fight 3">
+                    </div>
+                    <div class="nome">
+                        <!-- NOME -->
+                        <p>Final Fight 3</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Briga de Rua</p>
+                    </div>
+                    <div class="nota legalzinho">
+                        <!-- AVALIAÇAO -->
+                        <p>Legalzinho</p>
+                    </div>
+                </li>
+                <li> <!-- Donkey Kong Country 3:Dixie Kong's Double Trouble! -->
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-12.png" alt="Donkey Kong Country 3">
+                    </div>
+                    <div class="nome">
+                        <!-- NOME -->
+                        <p>Donkey Kong Country 3: <br> Dixie Kong's Double Trouble!</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Plataforma</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li> <!-- THE KING OF FIGHTERS 2002 UNLIMITED MATCH -->
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-11.jpg" alt="The King Of Fighters 2002 Unlimited Match">
+                    </div>
+                    <div class="nome">
+                        <!-- NOME -->
+                        <p>THE KING OF FIGHTERS 2002 UNLIMITED MATCH</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Luta</p>
+                    </div>
+                    <div class="nota muitobom">
+                        <!-- AVALIAÇAO -->
                         <p>Muito Bom</p>
                     </div>
                 </li>
-                <li><!---->
-                    <div id="htol" class="imagem">
-                        <!-- Imagem -->
+                <li> <!-- Mighty No. 9 -->
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-10.png" alt="Mighty No. 9">
                     </div>
                     <div class="nome">
-                        <!-- nome do jogo -->
-                        <p>htoL#NiQ: The Firefly Diary</p>
+                        <!-- NOME -->
+                        <p>Mighty No. 9</p>
                     </div>
-
                     <div class="genero">
-                        <!-- tipo do jogo -->
-                        <p>Puzzle</p>
+                        <!-- GENERO -->
+                        <p>Plataforma</p>
                     </div>
-                    <div class="avaliacao">
-                        <!-- avaliação -->
+                    <div class="nota ok">
+                        <!-- AVALIAÇAO -->
                         <p>Ok</p>
+                    </div>
+                </li>
+                <li> <!-- Omega Quintet -->
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-9.png" alt="Omega Quintet">
+                    </div>
+                    <div class="nome">
+                        <!-- NOME -->
+                        <p>Omega Quintet</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>JRPG</p>
+                    </div>
+                    <div class="nota legalzinho">
+                        <!-- AVALIAÇAO -->
+                        <p>Legalzinho</p>
+                    </div>
+                </li>
+                <li> <!-- Dimension Tripper Neptune TOP NEP -->
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-8.png" alt="Dimension Tripper Neptune TOP NEP">
+                    </div>
+                    <div class="nome">
+                        <!-- NOME -->
+                        <p>Dimension Tripper Neptune <br> TOP NEP</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Navinha</p>
+                    </div>
+                    <div class="nota muitobom">
+                        <!-- AVALIAÇAO -->
+                        <p>-=Muito Bom</p>
+                    </div>
+                </li>
+                <li> <!-- Toaru Kangaku no Railgun -->
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-7.png" alt="Toaru Kangaku no Railgun">
+                    </div>
+                    <div class="nome">
+                        <!-- NOME -->
+                        <p>Toaru Kangaku no Railgun</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Visual Novel</p>
+                    </div>
+                    <div class="nota legalzinho">
+                        <!-- AVALIAÇAO -->
+                        <p>Legalzinho</p>
+                    </div>
+                </li>
+                <li> <!-- Need for Speed Payback -->
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-6.jpg" alt="Need For Speed Payback">
+                    </div>
+                    <div class="nome">
+                        <!-- NOME -->
+                        <p>Need for Speed Payback</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Corrida</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li> <!-- K-On! Houkago Live!! HD Ver. -->
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-5.jpg" alt="K-On! Houkago Live!!">
+                    </div>
+                    <div class="nome">
+                        <!-- NOME -->
+                        <p>K-On! Houkago Live!! HD Ver.</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ritmo</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li> <!-- Lego City Undercover -->
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-4.jpg" alt="Lego City Undercover">
+                    </div>
+                    <div class="nome">
+                        <!-- NOME -->
+                        <p>Lego City Undercover</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Aventura</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li> <!-- Sonic Lost World -->
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-3.jpg" alt="Sonic Lost World">
+                    </div>
+                    <div class="nome">
+                        <!-- NOME -->
+                        <p>Sonic Lost World</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Plataforma</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li> <!-- Soul Eater Battle Resonance -->
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-2.jpg" alt="Soul Eater Battle Resonance">
+                    </div>
+                    <div class="nome">
+                        <!-- NOME -->
+                        <p>Soul Eater <br> Battle Resonance</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>=Luta</p>
+                    </div>
+                    <div class="nota legalzinho">
+                        <!-- AVALIAÇAO -->
+                        <p>Legalzinho</p>
+                    </div>
+                </li>
+
+                <li> <!-- GALGUN -->
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-1.png" alt="galgun 2">
+                    </div>
+                    <div class="nome">
+                        <!-- NOME -->
+                        <p>Gal Gun 2</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Rail Shooter</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
                     </div>
                 </li>
             </ul>
         </section>
+
     </main>
+
     <footer>
-        <p>Site criado por <a href="https://github.com/Bubynha">Bruno</a></p>
+        <p>Site criado por <a href="https://github.com/Bubynha" target="_blank" rel="external">Bruno</a></p>
     </footer>
+
     <script>
+        // ABRIR E FECHAR MENU
         function clickMenu() {
-            if (menu.style.display == 'block') {
+            if (menu.style.display == 'block'){
                 menu.style.display = 'none'
-            } else {
+            } else { 
                 menu.style.display = 'block'
             }
         }
+        // Quando id menu (nav) estiver com style display block, troque para none, se não troque par ablock
 
-        // SCRIPT PARA TROCA DE MENU QUANDO TROCAE TAMANHO DA TELA
-
+        // TROCA DE ESTILO DE MENU PARA TELAS GRANDES
         function trocaTamanho() {
-            if (window.innerWidth >= 768) {
+            if (window.innerWidth >= 728) {
                 menu.style.display = 'block'
-            } else {
-                menu.style.display = 'none'
-            }
+           } else {
+            menu.style.display = 'none'
+           }
         }
+        // Quando a janela tiver um tamanho maior que 728px, troque o valor de display do ID Menu (nav) para Block, senão deixe none
     </script>
 </body>
-
 </html>
