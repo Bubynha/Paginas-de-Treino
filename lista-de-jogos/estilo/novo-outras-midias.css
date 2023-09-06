@@ -12,7 +12,7 @@
 @media screen and (min-width: 728px) {
 
     body {
-        background-image: url(imagem/background-pc.jpg);
+        background-image: url(../imagem/background-pc.jpg);
     }
 
     span#burguer {

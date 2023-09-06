@@ -131,6 +131,9 @@ ul#lista li {
     border-radius: 10px;
     box-shadow: 0px 0px 5px 0px ;
     margin-bottom: 10px;
+    font-size: 1.05em;
+    line-height: 22px;
+    overflow: hidden;
 }
 
 ul#lista li:hover {
@@ -168,6 +171,7 @@ div.capinha {
 
 img {
     width: 80px;
+    height: 120px;
 }
 
 div.nome {
@@ -181,37 +185,38 @@ div.nome {
 div.genero {
     text-align: center;
     display: none;
-    border-right: 1px solid black;
-    border-radius: 10px;
+    border-right: 1px solid #363636;
 }
 
 div.nota {
     text-align: center;
     display: none;
+    
 }
 
 .muitobom {
-
+    background-color: blue;
+    color: white;
 }
 
 .legal{
-
+    background-color: rgb(0, 255, 0);
 }
 
 .legalzinho{
-
+    background-color: rgb(165, 248, 165);
 }
 
 .ok{
-
+    background-color: yellow;
 }
 
 .ruim{
-
+    background-color: orange;
 }
 
 .pessimo{
-
+    background-color: red;
 }
 
 footer {
@@ -232,8 +237,8 @@ footer a {
 @media screen and (orientation:landscape) {
     div.nome {
         flex: 2; /* DISTRIBUI O ESPAÇO SOBRANDO DA CAIXA PAI */
-        border-right: 1px solid black;
-        border-radius: 10px;
+        border-right: 1px solid #363636;
+        
     }
     div.nota {
         display: flex; /*FLEXBOX*/
