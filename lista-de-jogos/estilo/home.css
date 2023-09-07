@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+div#apresenta {
+    width: 80vw;
+    padding: 10px;
+    margin: 25px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.05em;
+    line-height: 23px;
+}
+
+div#bubynha img{
+    width: 120px;
+    height: 120px;
+    
+    
+}
