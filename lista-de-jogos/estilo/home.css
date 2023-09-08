@@ -1,22 +1,88 @@
 @charset "UTF-8";
 
+section#ola {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
 div#apresenta {
     width: 80vw;
-    padding: 10px;
-    margin: 25px;
+    display: flex;
+    margin: 5px;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 400px;
     background-color: white;
     border: 1px solid black;
     border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px;
+}
+
+div#bubynha {
     display: flex;
     justify-content: center;
-    align-items: center;
-    font-size: 1.05em;
-    line-height: 23px;
+    align-items: flex-end;
+    background-color: aquamarine;
+    border-right: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px;
 }
 
 div#bubynha img{
-    width: 120px;
-    height: 120px;
-    
-    
+    width: 75px;
+    height: 75px;
+}
+
+div#comenta {
+    padding: 6px;
+    font-size: 0.8em;
+    line-height: 16px;
+}
+
+div#conteudo {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 80vw;
+    max-width: 728px;
+    gap: 5px;
+}
+
+h2 {
+    background-color: #1b1b42;
+    border: 1px solid black;
+    box-shadow: 0px 0px 5px 0px black;
+    border-radius: 10px;
+    width: 100vw;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+
+h3 {
+    padding: 10px;
+    text-align: center;
+    width: 100vw;
+}
+
+div#ultimo-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 5px 0px;
+
 }
