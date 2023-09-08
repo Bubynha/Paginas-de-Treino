@@ -48,6 +48,11 @@ header h1 {
     padding: 20px;
 }
 
+header> h1 > a {
+    text-decoration: none;
+    color: white;
+}
+
 span#burguer {
     display: block;
     cursor: pointer;
