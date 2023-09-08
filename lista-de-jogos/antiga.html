@@ -58,7 +58,7 @@
                     <div id="gal-gun" class="imagem">
                         <!-- Imagem -->
                     </div>
-                    <div class="nome">
+                    <div id="nome" class="nome" onclick="clickNome()">
                         <!-- nome do jogo -->
                         <p>Gal Gun 2</p>
                     </div>
@@ -67,7 +67,7 @@
                         <!-- tipo do jogo -->
                         <p>Real Shooter</p>
                     </div>
-                    <div class="avaliacao">
+                    <div id="avaliacao" class="avaliacao">
                         <!-- avaliação -->
                         <p>Legal</p>
                     </div>
@@ -807,6 +807,14 @@
                 menu.style.display = 'block'
             } else {
                 menu.style.display = 'none'
+            }
+        }
+
+        function clickNome() {
+            if (avaliacao.style.display == 'block') {
+                avaliacao.style.display = 'none'
+            } else {
+                avaliacao.style.display = 'block'
             }
         }
     </script>
