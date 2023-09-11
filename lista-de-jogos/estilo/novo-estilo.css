@@ -37,11 +37,12 @@ main {
 }
 
 header {
-    border: 1px solid black;
+    box-shadow: 0px 1px 5px 0px black;
     text-align: center;
     background-image: linear-gradient(to right, #1b1b42,#4242a5);
     color: white;
     text-shadow: 1px 1px 2px black;
+
 }
 
 header h1 img{

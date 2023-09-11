@@ -28,6 +28,7 @@ div#bubynha {
     border-right: 1px solid black;
     border-radius: 10px;
     box-shadow: 0px 0px 5px 0px;
+    overflow: hidden;
 }
 
 div#bubynha img{
@@ -59,11 +60,11 @@ div#conteudo {
 }
 
 h2 {
-    background-color: #1b1b42;
+    background-image: linear-gradient( to right,  #1b1b42,#4242a5);
     border: 1px solid black;
     box-shadow: 0px 0px 5px 0px black;
     border-radius: 10px;
-    width: 100vw;
+    width: 100%;
     text-align: center;
     color: white;
     padding: 5px;
@@ -72,7 +73,8 @@ h2 {
 h3 {
     padding: 10px;
     text-align: center;
-    width: 100vw;
+    width: 100%;
+    font-size: 1.3em;
 }
 
 div#ultimo-img {
@@ -84,5 +86,34 @@ div#ultimo-img {
     overflow: hidden;
     margin-bottom: 10px;
     box-shadow: 0px 0px 5px 0px;
+}
+
+img {
+    width: 150px;
+    height: 225px;
+}
+
+div#conteudo p {
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+div#info {
+    display: flex;
+    flex-flow: row wrap ;
+    justify-content: center;
+    align-items: center; 
+}
+div.numero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
+
+@media screen and (min-width: 728px){
+    div#info {
+        flex-flow: row;
+    } 
+}
+    
