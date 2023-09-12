@@ -164,6 +164,11 @@ li.cabeca > div.capinha {
     box-shadow: 0px 0px 0px 0px;
 }
 
+li.cabeca > div.nome {
+    border-right: 1px solid #8a8989;
+    border-radius: 10px;
+} 
+
 div {
     height: 100%;
 }
@@ -184,10 +189,11 @@ img {
 
 div.nome {
     text-align: center;
-    flex: 1; /* DISTRIBUI O ESPAÇO SOBRANDO DA CAIXA PAI */
+    flex: 2; /* DISTRIBUI O ESPAÇO SOBRANDO DA CAIXA PAI */
     display: flex; /*FLEXBOX*/
     justify-content: center; /*ALINHAR ELEMENTOS MAIN AXIS*/
     align-items: center;  /*ALINHAR ELEMENTOS CROSS AXIS*/
+    border-right: 1px solid #363636;
 }
 
 div.genero {
@@ -197,8 +203,11 @@ div.genero {
 }
 
 div.nota {
-    text-align: center;
-    display: none;
+    display: flex; /*FLEXBOX*/
+        justify-content: center; /*ALINHAR ELEMENTOS MAIN AXIS*/
+        align-items: center; /*ALINHAR ELEMENTOS CROSS AXIS*/
+        flex: 1; /* DISTRIBUI O ESPAÇO SOBRANDO DA CAIXA PAI */
+        text-align: center;
     
 }
 
