@@ -131,7 +131,7 @@ ul#lista {
 
 ul#lista li {
     background-color: white;
-    width: 70vw;
+    width: 80vw;
     height: 120px;
     display: flex; /*FLEXBOX*/
     align-items: stretch;
@@ -139,7 +139,7 @@ ul#lista li {
     border-radius: 10px;
     box-shadow: 0px 0px 5px 0px ;
     margin-bottom: 10px;
-    font-size: 1.05em;
+    font-size: 1.02em;
     line-height: 22px;
     overflow: hidden;
 }
@@ -252,6 +252,10 @@ footer a {
 }
 
 @media screen and (orientation:landscape) {
+    ul#lista li {
+        font-size: 1.05em;
+        
+    }
     div.nome {
         flex: 2; /* DISTRIBUI O ESPAÇO SOBRANDO DA CAIXA PAI */
         border-right: 1px solid #363636;

@@ -50,6 +50,11 @@
 
     ul#lista {
         max-width: 728px;
+        font-size: 1.05em;
+    }
+
+    ul#lista li {
+        width: 70vw;
     }
 
     ul#lista li:hover {
