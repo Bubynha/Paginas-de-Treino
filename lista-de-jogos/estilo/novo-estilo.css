@@ -216,7 +216,7 @@ div.nota {
 }
 
 .legalzinho{
-    background-color: rgb(165, 248, 165);
+    background-color: #cffdcf;
 }
 
 .ok{
@@ -265,7 +265,7 @@ div.nota {
 .m-legalzinho{
     border: 1px solid black;
     border-radius: 5px;
-    background-color: rgb(165, 248, 165);
+    background-color: #cffdcf;
     font-size: 0.8em;
     margin-bottom: 10px;
     width: 50%;
