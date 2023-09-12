@@ -131,7 +131,7 @@ ul#lista {
 
 ul#lista li {
     background-color: white;
-    width: 80vw;
+    width: 75vw;
     height: 120px;
     display: flex; /*FLEXBOX*/
     align-items: stretch;
@@ -139,7 +139,7 @@ ul#lista li {
     border-radius: 10px;
     box-shadow: 0px 0px 5px 0px ;
     margin-bottom: 10px;
-    font-size: 1.02em;
+    font-size: 1.05em;
     line-height: 22px;
     overflow: hidden;
 }
@@ -163,11 +163,6 @@ li.cabeca > div.capinha {
     border-right:1px solid #8a8989;
     box-shadow: 0px 0px 0px 0px;
 }
-
-li.cabeca > div.nome {
-    border-right: 1px solid #8a8989;
-    border-radius: 10px;
-} 
 
 div {
     height: 100%;
@@ -193,7 +188,7 @@ div.nome {
     display: flex; /*FLEXBOX*/
     justify-content: center; /*ALINHAR ELEMENTOS MAIN AXIS*/
     align-items: center;  /*ALINHAR ELEMENTOS CROSS AXIS*/
-    border-right: 1px solid #363636;
+    flex-flow: row wrap;
 }
 
 div.genero {
@@ -203,7 +198,7 @@ div.genero {
 }
 
 div.nota {
-    display: flex; /*FLEXBOX*/
+    display: none; /*FLEXBOX*/
         justify-content: center; /*ALINHAR ELEMENTOS MAIN AXIS*/
         align-items: center; /*ALINHAR ELEMENTOS CROSS AXIS*/
         flex: 1; /* DISTRIBUI O ESPAÇO SOBRANDO DA CAIXA PAI */
@@ -217,7 +212,7 @@ div.nota {
 }
 
 .legal{
-    background-color: rgb(0, 255, 0);
+    background-color: #00ff00;
 }
 
 .legalzinho{
@@ -235,6 +230,86 @@ div.nota {
 .pessimo{
     background-color: red;
 }
+ /* NOTA MOBILE*/
+.item {
+    font-size: 1.05em;
+    width: 100%;
+    align-self: flex-end;
+}
+
+.m-muitobom{
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+    font-size: 0.8em;
+    margin-bottom: 10px;
+    width: 50%;
+    line-height: 15px;
+    align-self: flex-end;
+    box-shadow: 0px 0px 5px 0px #313131;
+}
+
+.m-legal {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #00ff00;
+    font-size: 0.8em;
+    margin-bottom: 10px;
+    width: 50%;
+    line-height: 15px;
+    align-self: flex-end;
+    box-shadow: 0px 0px 5px 0px #313131;
+}
+
+.m-legalzinho{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(165, 248, 165);
+    font-size: 0.8em;
+    margin-bottom: 10px;
+    width: 50%;
+    line-height: 15px;
+    align-self: flex-end;
+    box-shadow: 0px 0px 5px 0px #313131;
+}
+
+.m-ok{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: yellow;
+    font-size: 0.8em;
+    margin-bottom: 10px;
+    width: 50%;
+    line-height: 15px;
+    align-self: flex-end;
+    box-shadow: 0px 0px 5px 0px #313131;
+}
+
+.m-ruim{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: orange;
+    font-size: 0.8em;
+    margin-bottom: 10px;
+    width: 50%;
+    line-height: 15px;
+    align-self: flex-end;
+    box-shadow: 0px 0px 5px 0px #313131;
+}
+
+.m-pessimo{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: red;
+    font-size: 0.8em;
+    margin-bottom: 10px;
+    width: 50%;
+    line-height: 15px;
+    align-self: flex-end;
+    box-shadow: 0px 0px 5px 0px #313131;
+}
+
 
 footer {
     text-align: center;
@@ -252,9 +327,8 @@ footer a {
 }
 
 @media screen and (orientation:landscape) {
-    ul#lista li {
-        font-size: 1.05em;
-        
+    .item{ 
+        align-self: center;
     }
     div.nome {
         flex: 2; /* DISTRIBUI O ESPAÇO SOBRANDO DA CAIXA PAI */
@@ -271,5 +345,29 @@ footer a {
     li.cabeca > div.nome {
         border-right: 1px solid #8a8989;
         border-radius: 10px;
+    }
+
+    .m-muitobom {
+        display: none;
+    }
+
+    .m-legal {
+        display: none;
+    }
+
+    .m-legalzinho{
+        display: none;
+    }
+
+    .m-ok{
+        display: none;
+    }
+
+    .m-ruim {
+        display: none;
+    }
+
+    .m-pessimo {
+        display: none;
     }
 }
