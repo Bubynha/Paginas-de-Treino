@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,75 +11,1358 @@
     <link rel="shortcut icon" href="imagem/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilo/novo-estilo.css">
     <link rel="stylesheet" href="estilo/novo-outras-midias.css">
-    <style>
-        body {
-            height: 100vh;
-        }
-        
-        div#nep {
-            display: inline-block;
-            background-image: url(imagem/pngegg.png);
-            width: 200px;
-            height: 200px;
-            background-position: center center;
-            background-repeat: no-repeat;
-            background-size: cover;
 
-        }
-        @media screen and (min-width: 728px) {
-            div#coisa {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                gap: 10px;
-                padding: 10px;
-            }
-            
-        } 
-    </style>
 </head>
 
 <body onresize="trocaTamanho()">
     <header>
-        <h1><a href="https://bubynha.github.io/Paginas-de-Treino/lista-de-jogos/home" rel="next"><img src="imagem/logo.png" alt="Jogando com Bubynha"></a></h1>
-        
+        <h1><a href="https://bubynha.github.io/Paginas-de-Treino/lista-de-jogos/home" rel="next"><img
+                    src="imagem/logo.png" alt="Jogando com Bubynha"></a></h1>
+
         <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
-        
+
         <nav id="menu">
             <ul>
-                <li><a href="https://bubynha.github.io/Paginas-de-Treino/lista-de-jogos/lista21" rel="next">Lista 2021</a></li>
-                <li><a href="https://bubynha.github.io/Paginas-de-Treino/lista-de-jogos/lista22" rel="next">Lista 2022</a></li>
-                <li><a href="https://bubynha.github.io/Paginas-de-Treino/lista-de-jogos/lista23" rel="next">Lista 2023</a></li>
+                <li><a href="https://bubynha.github.io/Paginas-de-Treino/lista-de-jogos/lista21" rel="next">Lista
+                        2021</a></li>
+                <li><a href="https://bubynha.github.io/Paginas-de-Treino/lista-de-jogos/lista22" rel="next">Lista
+                        2022</a></li>
+                <li><a href="https://bubynha.github.io/Paginas-de-Treino/lista-de-jogos/lista23" rel="next">Lista
+                        2023</a></li>
             </ul>
         </nav>
 
     </header>
 
     <main>
-
-        <section >
-            <div id="intro">    
-                <div id="coisa">
-                    <div id="nep"></div>
-                    <div id="mens">
-                        <p>Lista Indispónivel no momento</p>
-                    </div>
-                </div>
+        <section>
+            <div id="intro">
+                <h2>
+                    Lista 2023
+                </h2>
+                <p>Lista com todos os jogos terminados no ano de 2023.</p>
+                <p>*Lista ordenada do primeiro  ao ultimo jogado no ano.</p>
             </div>
+        </section>
+        <section>
+            <ul id="lista">
+                <li class="cabeca">
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <p>Box Art</p>
+                    </div>
+                    <div class="nome">
+                        <!-- NOME -->
+                        <p>Nome</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Gênero</p>
+                    </div>
+                    <div class="nota">
+                        <!-- AVALIAÇAO -->
+                        <p>O que achei</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">"MegaTagmension Blanc + Neptune VS Zombies"</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">"Yu-Gi-Oh! Rush Duel Dawn of the Battle Royale"</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">"Ultimate Marvel Vs Capcom 3"</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">"SNK Heroines Tag Team Frenzy"</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">Blue Reflection</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">Giga Wing 2</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">Gun Bird 2</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">"Pokémon Legends Arceus"</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">Dolphin Blue</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">Metal Slug 6</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">Elden Ring</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">Yo-kai Watch 4 ++</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">Fire Emblem Warriors</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">Fighting EX Layer</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">Sonic the Hedgehog</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">Sonic the Hedgehog 2</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">"Kirby and the Forgotten Land"</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">"Fighting EX Layer Another Dash"</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">"Atelier Firis The Alchemist and The Mysterious Journey DX"</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">Teenage Mutant NinjaTurtles: The Hyperstone Heist</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">Sonic Chaos</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">"Hatsune Miku Project Diva Extended"</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">"Lego Star Wars The Skywalker Saga "</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+        
+                </li>
+                <li>
+                    </div>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p c lass="item">"Atelier Lydie & Suelle The Alchemist and T
+                            he Mysterious Paintings DX"</p>
+                            <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">Neptunia X Senran Kagura Ninja Wars</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+        
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p c lass="item">"Tiny Tina's Assault on Dragon Keep: A Wonderl
+                            ands One-Shot Adventure"</p>
+                            <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">"Pocky & Rocky Reshrined"</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">Arms</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">"Miss Kobayashi's Dragonmaid Burst Forth!! Choro-gon☆Breath"</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">ClockWork Aquario</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">Teenage Mutant Ninja Turtles: Shredders Revenge</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">Guilty Gear Strive</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">"Mario Kart 8 Deluxe"</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">"DC Super Hero Girls: Teen Power"</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">"Alan Wake's American Nightmare"</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">The Vagrant</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">Moving Out</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">"Hyperdevotion Noire Goddess Black Heart"</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">Alan Wake</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">Stray</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">Bright Memory</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">Bright Memory Infinity</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">Watch Dogs</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">Dusk Diver</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">Rayman Origins</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">Tower of Fantasy</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">Dusk Diver 2</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">Jump Force</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">Splatoon 2</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">Rayman Legends</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">F1 2018</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">Blaster Master Zero 3</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">Fredom Planet 2</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">Mugen Souls</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">Sonic the Hedgehog</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">Splatoon 2 Octo Expansion</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">Splatoon</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">Horizon Chase Turbo</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">Overcoocked</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">Gal*Gun Double Peace</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">Killer is Dead</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">Overcoocked 2</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">Marvel vs Capcom Infinite</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">BlazBlue Centralfiction</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">Injustice 2 Legendary Edition"</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">Dimension Tripper Neptune: TOP NEP</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">LEGO Marvel Super Heroes 2</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">"Atelier Lulua The Scion of Arland"</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">Pokémon Violet</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">Gotoubun no Hanayome ∬: Natsu no Omoide mo Gotoubun</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="capinha">
+                        <!-- IMAGEM -->
+                        <img src="imagem/imagem-22.jpg" alt="Resident Evil Revelations 2 Episode 1">
+                    </div>
+                    <div class="nome">
+                        <p class="item">Eiga Gotoubun no Hanayome: Kimi to Sugoshita Itsutsu no Omoide</p>
+                        <p class="m-muitobom">Muito Bom</p>
+                    </div>
+                    <div class="genero">
+                        <!-- GENERO -->
+                        <p>Ação</p>
+                    </div>
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+                </li>
+            </ul>
         </section>
     </main>
 
     <footer>
         <p>Site criado por <a href="https://github.com/Bubynha" target="_blank" rel="external">Bruno</a></p>
-        <p>Icone Logo: <a href="https://www.flaticon.com/br/icones-gratis/jogos" title="jogos ícones" target="_blank" rel="external"> Jogos ícones criados por Freepik - Flaticon</a></p>
+        <p>Icone Logo: <a href="https://www.flaticon.com/br/icones-gratis/jogos" title="jogos ícones" target="_blank"
+                rel="external"> Jogos ícones criados por Freepik - Flaticon</a></p>
     </footer>
 
     <script>
         // ABRIR E FECHAR MENU
         function clickMenu() {
-            if (menu.style.display == 'block'){
+            if (menu.style.display == 'block') {
                 menu.style.display = 'none'
-            } else { 
+            } else {
                 menu.style.display = 'block'
             }
         }
@@ -88,11 +1372,12 @@
         function trocaTamanho() {
             if (window.innerWidth >= 728) {
                 menu.style.display = 'block'
-           } else {
-            menu.style.display = 'none'
-           }
+            } else {
+                menu.style.display = 'none'
+            }
         }
         // Quando a janela tiver um tamanho maior que 728px, troque o valor de display do ID Menu (nav) para Block, senão deixe none
     </script>
 </body>
+
 </html>
