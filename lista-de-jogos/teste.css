@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+.conquista {
+    align-self: flex-end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    width: 100%;
+    height: 30px;
+    background-color: rgb(20, 20, 209);
+}
+
+.conquista p {
+    
+    color: white;
+}
