@@ -203,9 +203,27 @@ div.nota {
         align-items: center; /*ALINHAR ELEMENTOS CROSS AXIS*/
         flex: 1; /* DISTRIBUI O ESPAÇO SOBRANDO DA CAIXA PAI */
         text-align: center;
-    
 }
 
+ /* BOX NOTA MOBILE */
+.item {
+    font-size: 1.05em;
+    width: 100%;
+    align-self: flex-end;
+}
+
+.m-nota{
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 0.8em;
+    margin-bottom: 10px;
+    width: 50%;
+    line-height: 15px;
+    align-self: flex-end;
+    box-shadow: 0px 0px 5px 0px #313131;
+}
+
+/* CONFIG NOTAS */
 .muitobom {
     background-color: blue;
     color: white;
@@ -230,86 +248,28 @@ div.nota {
 .pessimo{
     background-color: red;
 }
- /* NOTA MOBILE*/
-.item {
-    font-size: 1.05em;
+
+/* BOX TODAS AS CONQUISTAS */
+.conquista {
+    align-self: flex-end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    gap: 2px;
     width: 100%;
-    align-self: flex-end;
+    height: 30px;
+    background-color: rgb(20, 20, 209);
 }
 
-.m-muitobom{
-    border: 1px solid black;
-    border-radius: 5px;
+.conquista p {
     color: white;
-    background-color: blue;
-    font-size: 0.8em;
-    margin-bottom: 10px;
-    width: 50%;
-    line-height: 15px;
-    align-self: flex-end;
-    box-shadow: 0px 0px 5px 0px #313131;
 }
 
-.m-legal {
-    border: 1px solid black;
-    border-radius: 5px;
-    background-color: #00ff00;
-    font-size: 0.8em;
-    margin-bottom: 10px;
-    width: 50%;
-    line-height: 15px;
-    align-self: flex-end;
-    box-shadow: 0px 0px 5px 0px #313131;
+.conquista img {
+    width: 50px;
+    height: 50px;
 }
-
-.m-legalzinho{
-    border: 1px solid black;
-    border-radius: 5px;
-    background-color: #cffdcf;
-    font-size: 0.8em;
-    margin-bottom: 10px;
-    width: 50%;
-    line-height: 15px;
-    align-self: flex-end;
-    box-shadow: 0px 0px 5px 0px #313131;
-}
-
-.m-ok{
-    border: 1px solid black;
-    border-radius: 5px;
-    background-color: yellow;
-    font-size: 0.8em;
-    margin-bottom: 10px;
-    width: 50%;
-    line-height: 15px;
-    align-self: flex-end;
-    box-shadow: 0px 0px 5px 0px #313131;
-}
-
-.m-ruim{
-    border: 1px solid black;
-    border-radius: 5px;
-    background-color: orange;
-    font-size: 0.8em;
-    margin-bottom: 10px;
-    width: 50%;
-    line-height: 15px;
-    align-self: flex-end;
-    box-shadow: 0px 0px 5px 0px #313131;
-}
-
-.m-pessimo{
-    border: 1px solid black;
-    border-radius: 5px;
-    background-color: red;
-    font-size: 0.8em;
-    margin-bottom: 10px;
-    width: 50%;
-    line-height: 15px;
-    align-self: flex-end;
-    box-shadow: 0px 0px 5px 0px #313131;
-}
-
 
 footer {
     text-align: center;
@@ -330,6 +290,11 @@ footer a {
     .item{ 
         align-self: center;
     }
+
+    .item-2{
+        align-self: flex-end;
+    }
+
     div.nome {
         flex: 2; /* DISTRIBUI O ESPAÇO SOBRANDO DA CAIXA PAI */
         border-right: 1px solid #363636;
@@ -347,27 +312,7 @@ footer a {
         border-radius: 10px;
     }
 
-    .m-muitobom {
-        display: none;
-    }
-
-    .m-legal {
-        display: none;
-    }
-
-    .m-legalzinho{
-        display: none;
-    }
-
-    .m-ok{
-        display: none;
-    }
-
-    .m-ruim {
-        display: none;
-    }
-
-    .m-pessimo {
+    .m-nota {
         display: none;
     }
 }

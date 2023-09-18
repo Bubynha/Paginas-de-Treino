@@ -10,7 +10,6 @@
 */
 
 @media screen and (min-width: 728px) {
-
     body {
         background-image: url(../imagem/background-pc.jpg);
     }
@@ -60,6 +59,29 @@
         transition: 0.2s;
     }
 
+    li.cabeca > div.nome {
+        border-right: 1px solid #8a8989;
+        border-radius: 10px;
+    }
+
+    li.cabeca > div.genero {
+        border-right: 1px solid #8a8989;
+        border-radius: 10px;
+    }
+
+    div.nome {
+        flex: 2; /* DISTRIBUI O ESPAÇO SOBRANDO DA CAIXA PAI */
+        border-right: 1px solid #363636;
+    }
+
+    .item{ 
+        align-self: center;
+    }
+
+    .item-2{
+        align-self: flex-end;
+    }
+
     div.genero {
         display: flex; /* ATIVANDO FLEXBOX*/
         justify-content: center;/*ALINHAR ELEMENTOS MAIN AXIS*/
@@ -74,8 +96,9 @@
         flex: 1; /* DISTRIBUI O ESPAÇO SOBRANDO DA CAIXA PAI */
     }
 
-    li.cabeca > div.genero {
-        border-right: 1px solid #8a8989;
-        border-radius: 10px;
+    .m-nota {
+        display: none;
     }
+
+    
 }
