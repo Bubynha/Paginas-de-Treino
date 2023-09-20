@@ -99,6 +99,10 @@ section {
 }
 
 div#intro {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap; */
     width: 80vw;
     padding: 10px;
     margin: 20px;
@@ -113,6 +117,16 @@ h2 {
     font-size: 1.4em;
     padding: 2px;
 }
+
+/* div#intro div {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    padding-top: 5px;
+    font-size: 1.05em; 
+ } */
 
 p {
     padding: 2px;
