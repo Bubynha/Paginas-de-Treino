@@ -99,10 +99,10 @@ section {
 }
 
 div#intro {
-    /* display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: row wrap; */
+    flex-flow: row wrap;
     width: 80vw;
     padding: 10px;
     margin: 20px;
@@ -116,9 +116,18 @@ div#intro {
 h2 {
     font-size: 1.4em;
     padding: 2px;
+    width: 100%;
+    text-align: center;
+    background-image: linear-gradient(to right,  #1b1b42,#4242a5);
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px black ;
+    padding: 5px;
 }
 
-/* div#intro div {
+div#intro div {
+    width: 90%;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -126,12 +135,63 @@ h2 {
     flex-flow: row wrap;
     padding-top: 5px;
     font-size: 1.05em; 
- } */
+} 
 
 p {
     padding: 2px;
 }
 
+/* SEÇÂO FAVORITOS DO ANO */
+.fav-list {
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+    padding-bottom: 0px;
+    gap: 2px; 
+}
+.fav-item {
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+}
+
+.fav-item p {
+    font-size: 0.8em;
+    padding-top: 5px;
+}
+
+.fav-item img {
+    width: 130px;
+    height: 180px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 5px 0px;
+    border-radius: 10px;   
+}
+
+#fav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    text-align: center;
+    background-color: white;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px ;
+    max-width: 870px;
+}
+
+/* LISTA */
 ul#lista {
     list-style-type: none;
     height: 100%;

@@ -1,9 +1,7 @@
 @charset "UTF-8";
 
-/* Consertar DIV#INTRO com flex box ( Configs ja adicionados em novo estilo como comentario) */
-/* Envelopar os P da DIV#INTRO de todas as paginas com uma div */
 .fav-list {
-    border: 1px solid;
+    
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -12,56 +10,45 @@
     padding-bottom: 0px;
     gap: 2px; 
 }
+
 .fav-item {
-    border: 1px solid;
+    padding: 10px;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
     width: 150px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px;
+    margin: 5px;
+
 }
 
 .fav-item p {
     font-size: 0.8em;
+    padding: 5px;
 }
 
 .fav-item img {
     width: 130px;
     height: 180px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 5px 0px;
+    border-radius: 10px;
     
 }
-#fav {
+#favi {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
     width: 80vw;
     text-align: center;
-    background-color: white;
+    /* background-color: white; */
     margin-top: 0px;
     margin-bottom: 20px;
     padding: 10px;
-    border: 1px solid black;
-    border-radius: 10px;
-    box-shadow: 0px 0px 5px 0px ;
+    max-width: 870px;
 }
- h2 {
-    width: 80vw;
-    text-align: center;
-    background-image: linear-gradient(to right,  #1b1b42,#4242a5);
-    color: white;
-    border: 1px solid black;
-    border-radius: 10px;
-    box-shadow: 0px 0px 5px 0px ;
-    padding: 5px;
- }
-
- div#intro div {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-    padding-top: 5px;
-    font-size: 1.05em; 
- }

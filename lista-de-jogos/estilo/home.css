@@ -59,17 +59,6 @@ div#conteudo {
     gap: 5px;
 }
 
-h2 {
-    background-image: linear-gradient( to right,  #1b1b42,#4242a5);
-    border: 1px solid black;
-    box-shadow: 0px 0px 5px 0px black;
-    border-radius: 10px;
-    width: 100%;
-    text-align: center;
-    color: white;
-    padding: 5px;
-}
-
 h3 {
     padding: 10px;
     text-align: center;
