@@ -20,6 +20,10 @@
 #38A8D0
 */
 
+html {
+    height: 100%; /* FIXAR FOOTER NA PARTE DE BAIXO DA TELA*/
+    min-height: 100%; /* FIXAR FOOTER NA PARTE DE BAIXO DA TELA*/
+}
 
 body {
     background-color: #818181;
@@ -29,6 +33,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     text-shadow: 0.2px 0.2px #292929;
+    display: flex; /* FIXAR FOOTER NA PARTE DE BAIXO DA TELA*/
+    flex-direction: column; /* FIXAR FOOTER NA PARTE DE BAIXO DA TELA*/
+    min-height: 100%; /* FIXAR FOOTER NA PARTE DE BAIXO DA TELA*/
 }
 
 main {
@@ -352,6 +359,7 @@ footer {
     background-image: linear-gradient(to right,#1b1b42,#4242a5);
     color: white;
     font-size: 0.9em;
+    margin-top: auto; /* FIXAR FOOTER NA PARTE DE BAIXO DA TELA*/
 }
 
 footer a {

@@ -1,6 +1,36 @@
 @charset "UTF-8";
 
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    gap: 5px;
+    padding: 5px;
+    margin: 10px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px;
+
+}
+
 article {
-    background-color: black;
-    color: aliceblue;
+    text-align: justify;
+    width: 500px;
+    padding: 10px;
+}
+
+@media screen and (min-width: 728px) {
+    section {
+        max-width: 500px;
+    }
 }
