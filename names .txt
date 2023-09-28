@@ -1,33 +1,42 @@
 
-No More Heroes 3
-"Wonder Boy 
-Asha in Monster World"
-"Bleach
-Soul Resurreccion"
-"WarioWare
-Get It Together!"
-"Koihime Enbu
-Ryorairai 
-version 3"
-Aero the Acro-Bat
-Tales of Arise
-Metroid Dread
-Fate/Extella Link
-"Azur Lane
-Crosswave"
-"Pokémon
-Brilliant Diamond"
-"Yoshi 
-Crafted World
-(Co-op)"
-Poison Control
-"Tekken 7
-(Todas as Conquistas)"
-"JoJo's Bizarre Adventure:
- All-Star Battle
-(Platina)"
-"Asterix & Obelix:
- Slap them All!
-(Co-op)"
-"Fatal Frame 
-Maiden of the Black Water"
+                <div class="nota legalzinho">
+                        <!-- AVALIAÇAO -->
+                        <p>Legalzinho</p>
+                    </div>
+
+                    <div class="nota legal">
+                        <!-- AVALIAÇAO -->
+                        <p>Legal</p>
+                    </div>
+
+                    <div class="nota ok">
+                        <!-- AVALIAÇAO -->
+                        <p>OK</p>
+                    </div>
+
+                    <div class="nota muitobom">
+                        <!-- AVALIAÇAO -->
+                        <p>Muito Bom</p>
+                    </div>
+                    
+                    <div class="nota ruim">
+                        <!-- AVALIAÇAO -->
+                        <p>Ruim</p>
+                    </div>
+
+                    <div class="nota pessimo">
+                        <!-- AVALIAÇAO -->
+                        <p>Péssimo</p>
+                    </div>
+
+                    <div class="conquista"> <img src="imagem/selo.png" alt="selo">
+                            <p>Completado 100%</p>
+                        </div>
+
+
+<p class="m-nota legal">Legal</p>
+<p class="m-nota legalzinho">Legalzinho</p> 
+<p class="m-nota ok">Ok</p>
+<p class="m-nota muitobom">Muito Bom</p>
+<p class="m-nota ruim">Ruim</p>        
+<p class="m-nota pessimo">Péssimo</p>           
