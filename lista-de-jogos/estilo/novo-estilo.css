@@ -385,6 +385,68 @@ footer {
     margin-top: auto; /* FIXAR FOOTER NA PARTE DE BAIXO DA TELA*/
 }
 
+#demo {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+#demo ul{
+    list-style: none;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px;
+    width: 70%;
+    overflow: hidden;
+    margin: 5px;
+}
+
+#demo li {
+    display: flex;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+}
+
+#demo div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 42px;
+}
+
+div#title {
+    background-image: linear-gradient(to right, #1b1b42,#4242a5);
+    width: 75%;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 5px 0px;
+    color: white; 
+    font-size: 1.05em;
+    font-weight: bold;
+}
+
+
+div.a1 {
+    text-align: center;
+    flex: 2;
+    max-width: 70%;
+    border-right: 1px solid black;
+    padding: 5px;
+}
+
+div.a2 {
+    text-align: center;
+    flex: 1;
+    max-width: 30%;
+}
+
 footer a {
     text-decoration: none;
     color: white;
