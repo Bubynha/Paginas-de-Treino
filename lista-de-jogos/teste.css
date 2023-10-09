@@ -6,13 +6,15 @@ div#st{
     justify-content: center;
     align-items: center;
     gap: 5px;
-    padding: 5px;
-    background-color: cornflowerblue;
+    padding: 10px;
+    background-color: white;
     width: 80vw;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px;
 }
 
-div.b1{
-    background-color: aliceblue;
+div.st1{
     width: 100%;
     display: flex;
     justify-content: center;
@@ -20,17 +22,7 @@ div.b1{
     padding: 5px;
 }
 
-div.b2{
-    background-color: aquamarine;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    padding: 5px;
-}
-
-div.b3{
-    background-color: burlywood;
+div.st2{
     width: 100%;
     display: flex;
     flex-flow: row wrap;
@@ -40,21 +32,32 @@ div.b3{
     padding: 5px;
 }
 
-.b3 h3 {
+.st3titulo {
     width: 100%;
     text-align: center;
+    padding: 5px;
+    background-image: linear-gradient(to right, #1b1b42,#4242a5);
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px black;
+    margin: 5px;
 }
- .itemb3 {
-    background-color: chartreuse;
+ .itemst2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
     width: 100px;
+    padding: 5px;
+    margin: 1px;
+    border: 1px solid black;
+    border-radius: 10px; 
+    box-shadow: 0px 0px 5px 0px black;
  }
 
- .itemb3 p {
+ .itemst2 p {
     width: 100%;
     text-align: center;
  }
