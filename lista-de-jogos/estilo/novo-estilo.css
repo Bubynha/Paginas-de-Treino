@@ -172,6 +172,14 @@ div.st1{
     padding: 5px;
 }
 
+.st1 h3 {
+    width: 70%;
+}
+
+.st1 p {
+    font-size: larger;
+}
+
 div.st2{
     width: 100%;
     display: flex;
@@ -284,7 +292,7 @@ ul#lista li {
     border-radius: 10px;
     box-shadow: 0px 0px 5px 0px ;
     margin-bottom: 10px;
-    font-size: 1.05em;
+    font-size: 0.90em;
     line-height: 22px;
     overflow: hidden;
 }
@@ -295,6 +303,7 @@ ul#lista li:hover {
 
 ul#lista > li.cabeca {
     height: 50px;
+    font-size: 1.05em;
     background-image: linear-gradient(to right, #1b1b42,#4242a5);
     color: rgb(255, 255, 255);
     font-weight: bold;
