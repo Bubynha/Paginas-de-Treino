@@ -494,9 +494,31 @@ footer {
     height: 42px;
 }
 
+.demo2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+div.title2 {
+    background-image: linear-gradient(to right, #1b1b42,#4242a5);
+    width: 90%;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 5px 0px;
+    color: white; 
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
 div#title {
     background-image: linear-gradient(to right, #1b1b42,#4242a5);
-    width: 75%;
+    width: 90%;
     padding: 10px;
     margin: 5px;
     border-radius: 10px;
@@ -506,7 +528,6 @@ div#title {
     font-size: 1.05em;
     font-weight: bold;
 }
-
 
 div.a1 {
     text-align: center;
