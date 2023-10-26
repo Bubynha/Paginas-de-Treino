@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+/* Mobile */
+
+/* Cores
+#1b1b42
+#141430
+#845FAC
+#4242a5
+#6E81BC
+#38A8D0
+*/
+
+body{
+    /* FIXAR FOOTER NA PARTE DE BAIXO DA TELA*/
+    display: flex;
+    flex-direction: column; 
+    min-height: 100vh;
+    /* ------------------------------------- */
+}
+
+/* --- CABEÇALHO ---*/
+header {
+    background-color: blueviolet;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+img#logo{
+    width: 200px;
+    height: 100px;
+}
+
+nav{
+    background-color: aquamarine;
+}
+
+ul {
+    list-style-type: none;
+    display: block;
+}
+
+li {
+    text-align: center;
+    background-color: brown;
+    width: 100vw;
+    border: 1px solid black;
+
+}
+
+/* ---------------- */
+
+/* --- CONTEUDO --- */
+main {
+    border: 1px solid black;
+    flex: 1;
+    background-color: blue;
+
+}
+
+section{
+    background-color: chartreuse;
+
+}
+/* ---------------- */
+
+/* ---- RODAPÉ ---- */
+footer{
+    border: 1px solid black;
+    background-color: aqua;
+    text-align: center;
+    margin-top: auto;
+    padding: 10px;
+}
+
+
+
+
+
+
