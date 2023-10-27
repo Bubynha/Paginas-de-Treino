@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rascunho</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <!-- icone do menu-->
     
     <link rel="shortcut icon" href="imagem/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style/rascunho.css">
@@ -11,18 +13,17 @@
 <body>
     <header>
         <a href="https://github.com/Bubynha"><img id="logo" src="imagem/logo.png" alt="Logo Jogando com Bunynha" width="100" height="50"></a>
-        <nav>
-            <ul>
-                <li>
-                    <p>
-                        Jujuba
-                    </p>
+        
+        <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+
+        <nav id="menu">
+            <ul id="menu-item">
+                <li class="item-menu">
+                    <a href="#">Jujuba</a>    
                 </li>
-                <li>
-                    <p>
-                        Jujuba
-                    </p>
-            </li>
+                <li class="item-menu">
+                    <a href="#">Jujuba</a>    
+                </li>
             </ul>
         </nav>
     </header>
@@ -41,5 +42,18 @@
     <footer>
         <p>Página criada por <a href="https://github.com/Bubynha">Bruno</a></p>
     </footer>
+    <script>
+        // ABRIR E FECHAR MENU
+        function clickMenu() {
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }
+        }
+        // Quando id menu (nav) estiver com style display block, troque para none, se não troque par ablock
+
+        // TROCA DE ESTILO DE MENU PARA TELAS GRANDES
+    </script>
 </body>
 </html>
