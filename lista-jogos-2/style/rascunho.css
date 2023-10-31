@@ -89,14 +89,36 @@ li.item-menu {
 /* --- CONTEUDO --- */
 main {
     border: 1px solid black;
-    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color:yellow;
-
 }
 
-section{
-    background-color: chartreuse;
+section.intro{
+    background-color: #3d9ffa;
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
 
+.intro h1 {
+    width: 100%;
+}
+ .intro p {
+    width: 100%;
+ }
+
+section.info{
+    background-color: aquamarine;
+    border: 1px solid black;
 }
 /* ---------------- */
 
