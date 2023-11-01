@@ -101,6 +101,7 @@ section.intro{
     border: 1px solid black;
     padding: 10px;
     margin-top: 10px;
+    margin-bottom: 5px;
     text-align: center;
     width: 80%;
     display: flex;
@@ -119,7 +120,51 @@ section.intro{
 section.info{
     background-color: aquamarine;
     border: 1px solid black;
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
 }
+
+.geral{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    border: 1px solid black;
+}
+
+.geral-item{
+    flex: 1;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.subtit{
+    width: 100%;
+    background-color: cadetblue;
+    border: 1px solid black;
+    padding: 3px;
+}
+
+.fav-ano{
+    width: 100%;
+    padding: 5px;
+    border: 1px solid black;
+
+}
+
+.avabox {
+
+}
+
+
 /* ---------------- */
 
 /* ---- RODAPÉ ---- */
