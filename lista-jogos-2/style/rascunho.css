@@ -117,6 +117,8 @@ section.intro{
     width: 100%;
  }
 
+/* --- INFORMAÇÔES GERAIS --- */
+
 section.info{
     background-color: aquamarine;
     border: 1px solid black;
@@ -137,13 +139,13 @@ section.info{
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-    border: 1px solid black;
+    border: 1px solid black;/* apagar */
 }
 
 .geral-item{
     flex: 1;
     padding: 5px;
-    border: 1px solid black;
+    border: 1px solid black;/* apagar */
 }
 
 .subtit{
@@ -151,18 +153,58 @@ section.info{
     background-color: cadetblue;
     border: 1px solid black;
     padding: 3px;
+    margin-bottom: 5px;
 }
+
+/* -- Favorito do Ano -- */
 
 .fav-ano{
     width: 100%;
     padding: 5px;
-    border: 1px solid black;
+    border: 1px solid black;/* apagar */
+}
 
+#fav-list{
+    border: 1px solid black;/* apagar */
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-flow: row wrap;
+    margin: 5px 0px;
+}
+
+.fav-item{
+    border: 1px solid black;/* apagar */
+    margin: 3px;
+    width: 150px;
+}
+
+.fav-item img {
+    width: 100px;
+    height: 150px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 5px 0px;
+    border-radius: 10px;
+}
+
+/* -- Jogos por nota -- */
+
+#ava-ano{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 5px;
+    border: 1px solid ;/* apagar */
 }
 
 .avabox {
-
+    border: 1px solid black; 
+    width: 100px;
 }
+/* -------------------------- */
 
 
 /* ---------------- */
