@@ -154,6 +154,7 @@ section.info{
     border: 1px solid black;
     padding: 3px;
     margin-bottom: 5px;
+    text-align: center;
 }
 
 /* -- Favorito do Ano -- */
@@ -205,7 +206,32 @@ section.info{
     width: 100px;
 }
 /* -------------------------- */
+/* ----- LISTA ---- */
 
+section.terminado {
+    background-color: lightsteelblue;
+    border: 1px solid black;
+    width: 80%;
+    padding: 5px;
+}
+
+#lista{
+    background-color: cyan;
+    border: 1px solid black;
+}
+
+table{
+    width: 100%;
+    background-color: #3d9ffa;
+    border: 1px solid black;
+    border-collapse: separate;
+    border-spacing: 0px 5px;
+}
+
+th, td{
+    border: 1px solid black;
+    text-align: center;
+}
 
 /* ---------------- */
 
