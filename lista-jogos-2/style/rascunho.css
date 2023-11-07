@@ -96,14 +96,21 @@ main {
     background-color:yellow;
 }
 
-section.intro{
+section{
+    display: block;
+    width: 80%;
+    background-color: azure;
+    border: 1px solid black;
+}
+
+.intro{
     background-color: #3d9ffa;
     border: 1px solid black;
     padding: 10px;
     margin-top: 10px;
     margin-bottom: 5px;
+    width: 100%;
     text-align: center;
-    width: 80%;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -112,6 +119,7 @@ section.intro{
 
 .intro h1 {
     width: 100%;
+    font-size: 1.4em;
 }
  .intro p {
     width: 100%;
@@ -119,17 +127,15 @@ section.intro{
 
 /* --- INFORMAÇÔES GERAIS --- */
 
-section.info{
+.info{
     background-color: aquamarine;
     border: 1px solid black;
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 5px;
-    margin-bottom: 5px;
     padding: 5px;
 }
 
@@ -145,6 +151,7 @@ section.info{
 .geral-item{
     flex: 1;
     padding: 5px;
+    text-align: center;
     border: 1px solid black;/* apagar */
 }
 
@@ -178,6 +185,7 @@ section.info{
     border: 1px solid black;/* apagar */
     margin: 3px;
     width: 150px;
+    text-align: center;
 }
 
 .fav-item img {
@@ -197,6 +205,7 @@ section.info{
     justify-content: center;
     align-items: center;
     gap: 5px;
+    padding: 5px;
     margin-bottom: 5px;
     border: 1px solid ;/* apagar */
 }
@@ -204,20 +213,15 @@ section.info{
 .avabox {
     border: 1px solid black; 
     width: 100px;
+    text-align: center;
 }
 /* -------------------------- */
 /* ----- LISTA ---- */
 
-section.terminado {
-    background-color: lightsteelblue;
-    border: 1px solid black;
-    width: 80%;
-    padding: 5px;
-}
-
 #lista{
     background-color: cyan;
     border: 1px solid black;
+    padding: 5px;
 }
 
 table{
@@ -233,6 +237,16 @@ th, td{
     text-align: center;
 }
 
+th.capa{
+    width: 80px;
+    padding: 5px;
+}
+
+td img {
+    width: 80px;
+    height: 120px;
+    margin-bottom: -4px;
+}
 /* ---------------- */
 
 /* ---- RODAPÉ ---- */
