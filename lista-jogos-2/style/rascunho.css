@@ -247,6 +247,43 @@ td img {
     height: 120px;
     margin-bottom: -4px;
 }
+
+.demo {
+    padding: 5px;
+}
+
+.demo ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    padding: 5px;
+}
+
+li{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    width: 90%;
+    flex-flow: row wrap;
+}
+
+li div{
+    border: 1px solid black;
+}
+
+.demo-item {
+    width: 60%;
+    text-align: center;
+    padding: 10px;
+}
+
+.demo-av {
+    width: 40%;
+    text-align: center;
+    padding: 10px;
+}
 /* ---------------- */
 
 /* ---- RODAPÉ ---- */
