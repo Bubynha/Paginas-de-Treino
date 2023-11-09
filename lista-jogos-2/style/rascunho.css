@@ -99,16 +99,15 @@ main {
 section{
     display: block;
     width: 80%;
-    background-color: azure;
+    background-color: white;
     border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 5px;
 }
 
 .intro{
-    background-color: #3d9ffa;
-    border: 1px solid black;
     padding: 10px;
-    margin-top: 10px;
-    margin-bottom: 5px;
     width: 100%;
     text-align: center;
     display: flex;
@@ -118,7 +117,6 @@ section{
 }
 
 .intro h1 {
-    width: 100%;
     font-size: 1.4em;
 }
  .intro p {
@@ -128,52 +126,50 @@ section{
 /* --- INFORMAÇÔES GERAIS --- */
 
 .info{
-    background-color: aquamarine;
-    border: 1px solid black;
     width: 100%;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 5px;
+    padding: 10px;
 }
 
-.geral{
+/* .geral{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-    border: 1px solid black;/* apagar */
-}
+    
+} */
 
 .geral-item{
     flex: 1;
     padding: 5px;
     text-align: center;
-    border: 1px solid black;/* apagar */
 }
 
 .subtit{
     width: 100%;
-    background-color: cadetblue;
+    background-image: linear-gradient(to right, #1b1b42,#4242a5);
     border: 1px solid black;
-    padding: 3px;
+    box-shadow: 0px 0px 5px 0px black;
+    border-radius: 10px;
+    padding: 5px;
     margin-bottom: 5px;
     text-align: center;
+    color: white;
 }
 
 /* -- Favorito do Ano -- */
 
 .fav-ano{
     width: 100%;
-    padding: 5px;
-    border: 1px solid black;/* apagar */
+    padding: 10px;
 }
 
 #fav-list{
-    border: 1px solid black;/* apagar */
     display: flex;
     justify-content: center;
     align-items:flex-start;
@@ -182,7 +178,6 @@ section{
 }
 
 .fav-item{
-    border: 1px solid black;/* apagar */
     margin: 3px;
     width: 150px;
     text-align: center;
@@ -205,9 +200,8 @@ section{
     justify-content: center;
     align-items: center;
     gap: 5px;
-    padding: 5px;
+    padding: 10px;
     margin-bottom: 5px;
-    border: 1px solid ;/* apagar */
 }
 
 .avabox {
@@ -217,19 +211,26 @@ section{
 }
 /* -------------------------- */
 /* ----- LISTA ---- */
+#list{
+    background-color: transparent;
+}
 
-#lista{
-    background-color: cyan;
-    border: 1px solid black;
-    padding: 5px;
+.lista{
+    padding: 10px;
 }
 
 table{
     width: 100%;
-    background-color: #3d9ffa;
-    border: 1px solid black;
     border-collapse: separate;
     border-spacing: 0px 5px;
+}
+
+.cabeca{
+    background-image: linear-gradient(to right, #1b1b42,#4242a5);
+}
+
+th{
+    color: white;
 }
 
 th, td{
@@ -242,14 +243,41 @@ th.capa{
     padding: 5px;
 }
 
-td img {
+td {
+    background-color: aliceblue;
+}
+
+img.capa {
     width: 80px;
     height: 120px;
     margin-bottom: -4px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 5px 0px;
+    border-radius: 10px;
+}
+
+.item-1{
+    border-radius: 10px 0px 0px 10px;
+}
+
+.item-2{
+
+}
+
+.item-3{
+
+}
+
+.item-4{
+
+}
+
+.item-5{
+    border-radius: 0px 10px 10px 0px;
 }
 
 .demo {
-    padding: 5px;
+    padding: 10px;
 }
 
 .demo ul {
@@ -267,6 +295,7 @@ li{
     align-items: center;
     width: 90%;
     flex-flow: row wrap;
+    background-color: aliceblue;
 }
 
 li div{
