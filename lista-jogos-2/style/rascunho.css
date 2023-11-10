@@ -222,7 +222,7 @@ section{
 table{
     width: 100%;
     border-collapse: separate;
-    border-spacing: 0px 5px;
+    border-spacing: 0px 10px;
 }
 
 .cabeca{
@@ -234,13 +234,23 @@ th{
 }
 
 th, td{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     text-align: center;
+}
+
+tr {
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px black;
 }
 
 th.capa{
     width: 80px;
     padding: 5px;
+    border-right: 1px solid #5c5c5c;
+}
+
+th.item1, th.item-2, th.item-3, th.item-4 {
+    border-right: 1px solid #5c5c5c;
 }
 
 td {
@@ -251,33 +261,49 @@ img.capa {
     width: 80px;
     height: 120px;
     margin-bottom: -4px;
-    border: 1px solid black;
     box-shadow: 0px 0px 5px 0px;
     border-radius: 10px;
+    border-right: 1px solid black; 
 }
 
 .item-1{
     border-radius: 10px 0px 0px 10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
 }
 
 .item-2{
-
+    border-top: 1px solid black;
+    border-right:1px solid black;
+    border-bottom: 1px solid black;
 }
 
 .item-3{
-
+    border-top: 1px solid black;
+    border-right:1px solid black;
+    border-bottom: 1px solid black;
 }
 
 .item-4{
-
+    border-top: 1px solid black;
+    border-right:1px solid black;
+    border-bottom: 1px solid black;
 }
 
 .item-5{
     border-radius: 0px 10px 10px 0px;
+    border-top: 1px solid black;
+    border-right:1px solid black;
+    border-bottom: 1px solid black;
 }
 
 .demo {
     padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
 }
 
 .demo ul {
@@ -286,19 +312,21 @@ img.capa {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-    padding: 5px;
+    width: 90%;
+    margin: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 5px 0px;
+    overflow: hidden;
 }
 
 li{
     display: flex;
-    justify-content:center ;
+    justify-content:center;
     align-items: center;
-    width: 90%;
+    width: 100%;
     flex-flow: row wrap;
     background-color: aliceblue;
-}
-
-li div{
     border: 1px solid black;
 }
 
@@ -306,6 +334,7 @@ li div{
     width: 60%;
     text-align: center;
     padding: 10px;
+    border-right: 1px solid black;
 }
 
 .demo-av {
