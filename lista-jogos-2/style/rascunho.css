@@ -227,7 +227,7 @@ h3{
 /* ----- LISTA ---- */
 #list{
     background-color: transparent;
-    width: 84%;
+    width: 100%;
     padding: 10px;
     border: none;
 }
@@ -253,7 +253,7 @@ h3{
 
 table{
     margin-top: 5px;
-    width: 95%;
+    width: 90%;
     border-collapse: separate;
     border-spacing: 0px 10px;
 }
