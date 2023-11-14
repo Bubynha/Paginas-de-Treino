@@ -45,11 +45,14 @@ header {
 }
 
 img#logo{
+    margin: 5px;
     width: 200px;
     height: 100px;
 }
 
 span#burguer {
+    text-align: center;
+    width: 100%;
     display: block;
     cursor: pointer;
     color: white;
@@ -58,6 +61,7 @@ span#burguer {
 }
 
 nav#menu{
+    width: 100%;
     display: none;
 }
 
@@ -67,11 +71,7 @@ ul#menu-item{
 }
 
 li.item-menu {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: #141430;
-    width: 100vw;
     border-top: 1px solid #4242a5;
 }
 
@@ -80,9 +80,9 @@ li.item-menu {
 }
 
 .item-menu a {
+    width: 100%;
     display: block;
     text-align: center;
-    width: 100%;
     text-decoration: none;
     color: white;
     padding: 10px;
@@ -295,12 +295,43 @@ th.item1, th.item-2, th.item-3, th.item-4 {
 td {
     background-color: aliceblue;
     font-size: 0.9em;
+    height: 122px;
+    overflow: hidden;
+}
+
+td.item-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nome{
+    padding: 10px;
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobi-ava{
+    text-align: center;
+    width: 70%;
+    margin-bottom: 5px;
+    padding: 2px;
+    border: 1px solid black;
+}
+
+.conquista{
+    border: 1px solid black;
+    padding: 5px;
+    width: 100%;
 }
 
 img.capa {
     width: 80px;
     height: 120px;
-    margin-bottom: -4px;
+    margin-bottom: -3px;
     box-shadow: 0px 0px 5px 0px;
     border-radius: 10px;
     border-right: 1px solid black; 
@@ -336,6 +367,16 @@ img.capa {
     border-top: 1px solid black;
     border-right:1px solid black;
     border-bottom: 1px solid black;
+}
+
+@media screen and (max-width: 768px){
+    .item-3,.item-4,.item-5 {
+        display: none;
+    }
+
+    .item-2 {
+        border-radius: 0px 10px 10px 0px;
+    }
 }
 
 .demo {
@@ -398,6 +439,8 @@ footer a {
     text-decoration: none;
     color: white;
 }
+
+
 
 
 

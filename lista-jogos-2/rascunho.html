@@ -9,8 +9,9 @@
     
     <link rel="shortcut icon" href="imagem/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style/rascunho.css">
+    <link rel="stylesheet" href="style/other-media.css">
 </head>
-<body>
+<body onresize="trocaTamanho()">
     <header>
         <a href="https://github.com/Bubynha"><img id="logo" src="imagem/logo.png" alt="Logo Jogando com Bunynha" width="100" height="50"></a>
         
@@ -154,7 +155,17 @@
                     <tr>
                         <td class="item-1">
                             <img class="capa" src="imagem/21-01.png" alt=""></td>
-                        <td class="item-2">SnipperClips</td>
+                        <td class="item-2">
+                            <div class="nome">
+                                <p>SnipperClips</p>
+                            </div>
+                            <div class="mobi-ava">
+                                <p>Legal</p>
+                            </div>
+                            <div class="conquista">
+                                <p>Todas as Conquistas</p>
+                            </div>
+                            </td>
                         <td class="item-3">Puzzle</td>
                         <td class="item-4">Switch</td>
                         <td class="item-5">Legal</td>
@@ -233,6 +244,14 @@
         // Quando id menu (nav) estiver com style display block, troque para none, se não troque par ablock
 
         // TROCA DE ESTILO DE MENU PARA TELAS GRANDES
+        function trocaTamanho() {
+            if (window.innerWidth >= 768) {
+                menu.style.display = 'block'
+            } else {
+                menu.style.display = 'none'
+            }
+        }
+        // Quando a janela tiver um tamanho maior que 728px, troque o valor de display do ID Menu (nav) para Block, senão deixe none
     </script>
 </body>
 </html>
