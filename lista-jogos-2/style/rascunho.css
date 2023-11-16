@@ -97,7 +97,11 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color:yellow;
+    background-image: url(../imagem/background-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 section{
@@ -105,9 +109,10 @@ section{
     width: 90%;
     background-color: white;
     border: 1px solid black;
+    box-shadow: 0px 0px 5px 0px;
     border-radius: 10px;
     overflow: hidden;
-    margin: 5px;
+    margin: 10px;
 }
 
 .intro{
@@ -230,6 +235,7 @@ h3{
     width: 100%;
     padding: 10px;
     border: none;
+    box-shadow: none;
 }
 
 .lista{
@@ -280,6 +286,7 @@ th, td{
 tr {
     border-radius: 10px;
     box-shadow: 0px 0px 5px 0px black;
+    background-color: white;
 }
 
 th.capa{
@@ -296,7 +303,6 @@ td {
     background-color: aliceblue;
     font-size: 0.9em;
     height: 122px;
-    overflow: hidden;
 }
 
 td.item-2{
@@ -317,15 +323,33 @@ td.item-2{
 .mobi-ava{
     text-align: center;
     width: 70%;
-    margin-bottom: 5px;
+    margin-bottom: 7px;
     padding: 2px;
     border: 1px solid black;
+    font-size: 0.8em;
+    border-radius: 5px;
 }
 
 .conquista{
-    border: 1px solid black;
+    
     padding: 5px;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 29px;
+    gap: 2px;
+    font-size: 0.8em;
+    background-color: #1414d1;
+}
+
+.conquista p {
+    color: white;
+}
+
+.conquista img{
+    width: 45px;
+    height: 45px;
 }
 
 img.capa {
@@ -334,7 +358,7 @@ img.capa {
     margin-bottom: -3px;
     box-shadow: 0px 0px 5px 0px;
     border-radius: 10px;
-    border-right: 1px solid black; 
+    border-right: 1px solid black;
 }
 
 .item-1{
