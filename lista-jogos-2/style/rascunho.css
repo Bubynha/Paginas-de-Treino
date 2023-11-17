@@ -152,21 +152,16 @@ h3{
     padding: 10px;
 }
 
-/* .geral{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-    
-} */
-
 .geral-item{
     flex: 1;
     padding: 5px;
     text-align: center;
 }
 
+.geral-item p {
+    font-weight: bold;
+    font-size: 1.05em;
+}
 .subtit{
     width: 100%;
     background-image: linear-gradient(to right, #1b1b42,#4242a5);
@@ -223,7 +218,7 @@ h3{
 
 .avabox {
     border: 1px solid black; 
-    width: 100px;
+    width: 120px;
     text-align: center;
     border-radius: 10px;
     padding: 5px;
@@ -267,7 +262,7 @@ table{
 caption{
     font-size: 1.2em;
     font-weight: bolder;
-    line-height: 1.5em;
+    line-height: 22px;
 }
 
 .cabeca{
@@ -301,8 +296,7 @@ th.item1, th.item-2, th.item-3, th.item-4 {
 
 td {
     background-color: aliceblue;
-    font-size: 0.9em;
-    height: 122px;
+    height: 127px;
 }
 
 td.item-2{
@@ -310,6 +304,7 @@ td.item-2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .nome{
@@ -323,15 +318,14 @@ td.item-2{
 .mobi-ava{
     text-align: center;
     width: 70%;
-    margin-bottom: 7px;
+    margin-bottom: 6px;
     padding: 2px;
     border: 1px solid black;
-    font-size: 0.8em;
+    font-size: 0.75em;
     border-radius: 5px;
 }
 
 .conquista{
-    
     padding: 5px;
     width: 100%;
     display: flex;
@@ -339,7 +333,7 @@ td.item-2{
     justify-content: center;
     height: 29px;
     gap: 2px;
-    font-size: 0.8em;
+    font-size: 0.75em;
     background-color: #1414d1;
 }
 
@@ -353,8 +347,8 @@ td.item-2{
 }
 
 img.capa {
-    width: 80px;
-    height: 120px;
+    width: 85px;
+    height: 125px;
     margin-bottom: -3px;
     box-shadow: 0px 0px 5px 0px;
     border-radius: 10px;
@@ -446,6 +440,32 @@ li{
     width: 40%;
     text-align: center;
     padding: 10px;
+}
+
+.curti {
+    background-color: rgb(0, 0, 255);
+    color: white;
+}
+
+.legal{
+    background-color: #00ff00;
+}
+
+.legalzinho{
+    background-color: #cffdcf;
+}
+
+.ok{
+    background-color: yellow;
+}
+
+.ruim{
+    background-color: orange;
+}
+
+.n-gostei{
+    background-color: red;
+    color: white;
 }
 /* ---------------- */
 
