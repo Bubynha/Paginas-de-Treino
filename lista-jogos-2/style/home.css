@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+section.oc-intro{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.oc img {
+    width: 90px;
+    height: 85px;
+}
+
+article{
+    text-align: center;
+    display: block;
+    margin: 10px;
+}
+
+.dado{
+    padding: 10px;
+}
+
+article h2 {
+    font-size: 1.1em;
+}
+ article p{
+    font-weight: bolder;
+    font-size: 1em;
+    padding: 5px;
+    margin: 5px;
+ }
