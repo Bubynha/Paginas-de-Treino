@@ -11,15 +11,19 @@
     nav#menu ul{
         display: flex;
         justify-content: center;
-        gap: 2px;
+        gap: 5px;
     }
     
     #menu li{
         width: 75px;
         border: 1px solid #1b1b42;
-        border-radius: 5px;
+        border-radius: 7px 7px 0px 0px;
         overflow: hidden;
-        margin-bottom: 5px;
+        
+    }
+
+    .item-menu :hover {
+        transition: 0.3s;
     }
 
     section {
