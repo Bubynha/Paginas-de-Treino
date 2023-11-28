@@ -15,7 +15,7 @@
     }
     
     #menu li{
-        width: 75px;
+        width: 100px;
         border: 1px solid #1b1b42;
         border-radius: 7px 7px 0px 0px;
         overflow: hidden;
@@ -24,6 +24,10 @@
 
     .item-menu :hover {
         transition: 0.3s;
+    }
+
+    body {
+        background-image: url(../imagem/background-pc.jpg);
     }
 
     section {

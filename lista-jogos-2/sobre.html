@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre | Jogando com Bubynha</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <!-- icone do menu-->
+
+    <link rel="shortcut icon" href="imagem/favicon.ico" type="image/x-icon">
+
+    <link rel="shortcut icon" href="imagem/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style/rascunho.css">
+    <link rel="stylesheet" href="style/other-media.css">
+    <link rel="stylesheet" href="style/sobre.css">
+</head>
+<body onresize="trocaTamanho()">
+    <header>
+        <a href="https://github.com/Bubynha"><img id="logo" src="imagem/logo.png" alt="Logo Jogando com Bunynha"
+                width="100" height="50"></a>
+
+        <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+
+        <nav id="menu">
+            <ul id="menu-item">
+                <li class="item-menu">
+                    <a href="https://bubynha.github.io/Paginas-de-Treino/lista-jogos-2/home">Tela Inicial</a>    
+                </li>
+                <li class="item-menu">
+                    <a href="https://bubynha.github.io/Paginas-de-Treino/lista-jogos-2/lista-2023">Lista 2023</a>    
+                </li>
+                <li class="item-menu">
+                    <a href="https://bubynha.github.io/Paginas-de-Treino/lista-jogos-2/sobre">Sobre</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h3>Criador</h3>
+                <p>Bruno Melo</p>
+            </article>
+
+            <article>
+                <h3>Sobre a pagina</h3>
+                <p>Jogando com Bubynha é uma pagina criada com o intuito de treinar o que aprendi em HTML e CSS.
+                </p>
+                <p>Há algum tempo venho registro por hobby os jogos que venho terminando, criando lista em
+                    planilhas. Então tive a ideia de usar as listas das planilhas e tranformar e usar elas como
+                    a base e transportar elas em uma lista em HTML.</p>
+            </article>
+
+            <article>
+                <h3>O que é Bubynha</h3>
+                <p>Bubynha é um Original Character (OC), que criei para usar como avatar na gameplays.</p>
+                <p>Se originou em uma gameplay de Pokémon, onde estava sem ideias para o avatar. Com isso acabei
+                    utilizando o nome em praticamente todas as gameplays e como nickname.</p>
+                <p>Com o passar do tempo ela ganhou uma forma, sendo criada em um site onde pode-se montar
+                    personagens.</p>
+            </article>
+            <article>
+                <h3>Creditos</h3>
+                <p>Icone Controle da Logo: <a href="https://www.flaticon.com/br/icones-gratis/jogos"
+                        title="jogos ícones" target="_blank" rel="external">Criado por Freepik - Flaticon</a></p>
+                <p> Icone Selo de todas as conquistas:<a href="https://www.flaticon.com/br/icones-gratis/foca"
+                        title="foca ícones" target="_blank" rel="external"> Criado por Good Ware - Flaticon</a></p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Página criada por <a href="https://github.com/Bubynha">Bruno</a></p>
+    </footer>
+    <script>
+        // ABRIR E FECHAR MENU
+        function clickMenu() {
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }
+        }
+
+        // SCRIPT PARA TROCA DE MENU QUANDO TROCAE TAMANHO DA TELA
+
+        function trocaTamanho() {
+            if (window.innerWidth >= 768) {
+                menu.style.display = 'block'
+            } else {
+                menu.style.display = 'none'
+            }
+        }
+    </script>
+</body>
+
+</html>

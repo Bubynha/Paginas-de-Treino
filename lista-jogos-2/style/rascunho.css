@@ -30,7 +30,11 @@ body{
     display: flex;
     flex-direction: column; 
     min-height: 100vh;
-    background-color: #3d9ffa;
+    background-image: url(../imagem/background-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
     text-shadow: 0.2px 0.2px #818181;
     /* ------------------------------------- */
 }
@@ -92,16 +96,10 @@ li.item-menu {
 
 /* --- CONTEUDO --- */
 main {
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(../imagem/background-mobile.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
 }
 
 section{
