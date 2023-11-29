@@ -1,0 +1,54 @@
+                    Legalzinho
+                    <tr>
+                        <td class="item-1">
+                            <img class="capa" src="imagem/" alt=""></td>
+                        <td class="item-2">
+                            <div class="nome">
+                                <p>New Super Mario Bros</p>
+                            </div>
+                            <div class="mobi-ava legalzinho">
+                                <p>Legalzinho</p>
+                            </div>
+                        </td>
+                        <td class="item-3">Plataforma</td>
+                        <td class="item-4">Steam</td>
+                        <td class="item-5 legalzinho">Legalzinho</td>
+                    </tr>
+
+                    Legal
+                    <tr>
+                        <td class="item-1">
+                            <img class="capa" src="imagem/" alt=""></td>
+                        <td class="item-2">
+                            <div class="nome">
+                                <p>New Super Mario Bros</p>
+                            </div>
+                            <div class="mobi-ava legal">
+                                <p>Legal</p>
+                            </div>
+                        </td>
+                        <td class="item-3">Plataforma</td>
+                        <td class="item-4">Steam</td>
+                        <td class="item-5 legal">Legal</td>
+                    </tr>
+
+                    Conquista
+                    <tr>
+                        <td class="item-1">
+                            <img class="capa" src="imagem/21-08.jpg" alt=""></td>
+                        <td class="item-2">
+                            <div class="nome">
+                                <p>New Super Mario Bros</p>
+                            </div>
+                            <div class="mobi-ava legal">
+                                <p>Legal</p>
+                            </div>
+                            <div class="conquista">
+                                <img src="imagem/selo.png" alt="">
+                                <p>Todas as Conquistas</p>
+                            </div>
+                        </td>
+                        <td class="item-3">Plataforma</td>
+                        <td class="item-4">Steam</td>
+                        <td class="item-5 legal">Legal</td>
+                    </tr>

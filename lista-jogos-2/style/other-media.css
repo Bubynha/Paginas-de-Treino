@@ -37,4 +37,8 @@
     td.item-3, td.item-4,td.item-5 {
         width: 120px;
     }
+
+    .mobi-ava {
+        display: none;
+    }
 }
