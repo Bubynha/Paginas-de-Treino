@@ -274,6 +274,8 @@ caption{
 }
 
 th{
+    position: sticky;
+    top: 0;
     color: white;
 }
 
