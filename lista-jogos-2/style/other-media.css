@@ -41,4 +41,11 @@
     .mobi-ava {
         display: none;
     }
+
+    .nome{
+        height: 70%;
+    }
+    .er, .de, .op {
+        display: flex;
+    }
 }

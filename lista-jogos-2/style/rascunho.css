@@ -231,7 +231,7 @@ h3{
 /* ----- LISTA ---- */
 #list{
     background-color: transparent;
-    width: 100%;
+    width: 95%;
     padding: 10px;
     border: none;
     box-shadow: none;
@@ -314,29 +314,38 @@ td.item-2{
 }
 
 .nome{
-    padding: 10px;
-    flex: 2;
+    height: 50%;
+    border: 1px solid;
+    width: 100%;
+    text-align: center;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .mobi-ava{
+    align-self: flex-end;
+    display: flex;
+    justify-content: center;
     text-align: center;
+    align-items: center;
     width: 70%;
-    margin-bottom: 6px;
     padding: 2px;
     border: 1px solid black;
     font-size: 0.75em;
     border-radius: 5px;
+    margin-bottom: 5px;
 }
 
 .conquista{
+    align-self: flex-end;
     padding: 5px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    
     height: 29px;
     gap: 2px;
     font-size: 0.75em;
