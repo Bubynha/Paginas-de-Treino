@@ -241,9 +241,17 @@ h3{
     border: none;
     box-shadow: none;
 }
+
+.lista-intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 100%;
+}
 /* __________ */
 
-.qq{
+.cabeca{
     background-image: linear-gradient(to right, #1b1b42,#4242a5);
     color: white;
     border: 1px solid black;
@@ -260,18 +268,19 @@ h3{
     font-size: 1.1em;
 }
 
-.asd{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.lista .subtit{
+.lista-intro .subtit{
     padding: 8px;
     margin: 5px;
 }
 
-.ista{
+.lista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.lista-item{
     background-color: white;
     border: 1px solid black;
     box-shadow: 0px 0px 5px 0px black;
@@ -283,13 +292,13 @@ h3{
     overflow: hidden;
 }
 
-.htem{
+.hitem{
     border-right: 1px solid black;
     padding: 5px;
     font-size: 0.9em;
 }
 
-.tem{
+.item{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -316,46 +325,6 @@ h3{
     flex: 2;
     border-right: 1px solid black;
 }
-
-.er{
-    width: 15%;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-    border-right: 1px solid black;
-}
-
-.de{
-    width: 15%;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-    border-right: 1px solid black;
-}
-
-.op{
-    width: 15%;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-    border: none;
-}
-
-@media screen and (max-width: 768px){
-    .er,.de,.op {
-        display: none;
-    }
-
-    .name{
-        border: none;
-    }
-}
-
-/* __________ */
-
 
 .nome{
     height: 57%;
@@ -394,13 +363,7 @@ h3{
     background-color: #1414d1;
 }
 
-.lista {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-    width: 100%;
-}
+
 
 .conquista p {
     color: white;
@@ -428,6 +391,48 @@ h3{
     width: 45px;
     height: 45px;
 }
+
+
+.version{
+    width: 15%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    border-right: 1px solid black;
+}
+
+.genero{
+    width: 15%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    border-right: 1px solid black;
+}
+
+.nota{
+    width: 15%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    border: none;
+}
+
+@media screen and (max-width: 768px){
+    .version,.genero,.nota {
+        display: none;
+    }
+
+    .name{
+        border: none;
+    }
+}
+
+/* __________ */
+
+
 
 .demo {
     padding: 10px;

@@ -34,10 +34,6 @@
         max-width: 900px;
     }
 
-    .asd{
-        width: 90%;
-    }
-
     .mobi-ava {
         display: none;
     }
@@ -46,12 +42,12 @@
         height: 70%;
     }
 
-    .er, .de, .op {
+    .version, .genero, .nota {
         display: flex;
         width: 120px;
     }
 
-    .qaz{
+    .lista{
         width: 90%;
     }
 
