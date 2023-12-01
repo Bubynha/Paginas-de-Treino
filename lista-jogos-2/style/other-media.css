@@ -34,8 +34,8 @@
         max-width: 900px;
     }
 
-    td.item-3, td.item-4,td.item-5 {
-        width: 120px;
+    .asd{
+        width: 90%;
     }
 
     .mobi-ava {
@@ -45,7 +45,17 @@
     .nome{
         height: 70%;
     }
+
     .er, .de, .op {
         display: flex;
+        width: 120px;
+    }
+
+    .qaz{
+        width: 90%;
+    }
+
+    .demo{
+        width: 100%;
     }
 }

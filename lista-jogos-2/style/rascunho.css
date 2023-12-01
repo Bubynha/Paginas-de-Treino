@@ -132,7 +132,7 @@ h2 {
 }
 
 h3{
-    font-size: 1.1em;
+    font-size: 1.05em;
 }
  .intro p {
     width: 100%;
@@ -160,6 +160,7 @@ h3{
     font-weight: bold;
     font-size: 1.05em;
 }
+
 .subtit{
     width: 100%;
     background-image: linear-gradient(to right, #1b1b42,#4242a5);
@@ -230,93 +231,136 @@ h3{
 /* -------------------------- */
 /* ----- LISTA ---- */
 #list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
     background-color: transparent;
     width: 95%;
     padding: 10px;
     border: none;
     box-shadow: none;
 }
+/* __________ */
 
-.lista{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-}
-
-.lista>.subtit{
-    padding: 10px
-}
-
-.lista>.subtit > h2 {
-    margin-bottom: 3px;
-}
-
-.lista>.subtit> p {
-    font-size: 0.8em;
-}
-
-table{
-    margin-top: 5px;
-    width: 90%;
-    border-collapse: separate;
-    border-spacing: 0px 10px;
-}
-
-caption{
-    font-size: 1.2em;
-    font-weight: bolder;
-    line-height: 22px;
-}
-
-.cabeca{
+.qq{
     background-image: linear-gradient(to right, #1b1b42,#4242a5);
-}
-
-th{
-    position: sticky;
-    top: 0;
     color: white;
-}
-
-th, td{
-    /* border: 1px solid black; */
-    text-align: center;
-}
-
-tr {
-    border-radius: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+    line-height: 17px;
     box-shadow: 0px 0px 5px 0px black;
-    background-color: white;
-}
-
-th.capa{
-    width: 80px;
-    padding: 5px;
-    border-right: 1px solid #5c5c5c;
-}
-
-th.item1, th.item-2, th.item-3, th.item-4 {
-    border-right: 1px solid #5c5c5c;
-}
-
-td {
-    background-color: aliceblue;
-    height: 127px;
-}
-
-td.item-2{
+    overflow: hidden;
+    margin: 10px;
     display: flex;
-    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.1em;
+}
+
+.asd{
+    display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.lista .subtit{
+    padding: 8px;
+    margin: 5px;
+}
+
+.ista{
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 0px 0px 5px 0px black;
+    margin: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
     overflow: hidden;
 }
 
+.htem{
+    border-right: 1px solid black;
+    padding: 5px;
+    font-size: 0.9em;
+}
+
+.tem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+
+.cap{
+    width: 80px;
+}
+
+.cap>img{
+    width: 80px;
+    height: 120px;
+    border-radius: 0px 10px 10px 0px;
+    border-right: 1px solid black;
+    box-shadow: 0px 0px 5px 0px;
+}
+
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    flex: 2;
+    border-right: 1px solid black;
+}
+
+.er{
+    width: 15%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    border-right: 1px solid black;
+}
+
+.de{
+    width: 15%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    border-right: 1px solid black;
+}
+
+.op{
+    width: 15%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    border: none;
+}
+
+@media screen and (max-width: 768px){
+    .er,.de,.op {
+        display: none;
+    }
+
+    .name{
+        border: none;
+    }
+}
+
+/* __________ */
+
+
 .nome{
-    height: 50%;
-    border: 1px solid;
+    height: 57%;
     width: 100%;
+    padding: 3px;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -325,7 +369,6 @@ td.item-2{
 }
 
 .mobi-ava{
-    align-self: flex-end;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -345,11 +388,18 @@ td.item-2{
     display: flex;
     align-items: center;
     justify-content: center;
-    
     height: 29px;
     gap: 2px;
     font-size: 0.75em;
     background-color: #1414d1;
+}
+
+.lista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 100%;
 }
 
 .conquista p {
@@ -377,57 +427,6 @@ td.item-2{
 .complete img{
     width: 45px;
     height: 45px;
-}
-
-img.capa {
-    width: 85px;
-    height: 125px;
-    margin-bottom: -3px;
-    box-shadow: 0px 0px 5px 0px;
-    border-radius: 10px;
-    border-right: 1px solid black;
-}
-
-.item-1{
-    border-radius: 10px 0px 0px 10px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    border-left: 1px solid black;
-}
-
-.item-2{
-    border-top: 1px solid black;
-    border-right:1px solid black;
-    border-bottom: 1px solid black;
-}
-
-.item-3{
-    border-top: 1px solid black;
-    border-right:1px solid black;
-    border-bottom: 1px solid black;
-}
-
-.item-4{
-    border-top: 1px solid black;
-    border-right:1px solid black;
-    border-bottom: 1px solid black;
-}
-
-.item-5{
-    border-radius: 0px 10px 10px 0px;
-    border-top: 1px solid black;
-    border-right:1px solid black;
-    border-bottom: 1px solid black;
-}
-
-@media screen and (max-width: 768px){
-    .item-3,.item-4,.item-5 {
-        display: none;
-    }
-
-    .item-2 {
-        border-radius: 0px 10px 10px 0px;
-    }
 }
 
 .demo {
