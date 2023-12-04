@@ -1,5 +1,5 @@
                     Legalzinho
-                    <div class="lista-item">
+                        <div class="lista-item">
                             <div class="item cap">
                                 <img src="imagem/imagem-52.jpg" alt="">
                             </div>
@@ -23,7 +23,7 @@
                         </div>
 
                     Legal
-                    <div class="lista-item">
+                        <div class="lista-item">
                             <div class="item cap">
                                 <img src="imagem/imagem-52.jpg" alt="">
                             </div>
@@ -47,7 +47,7 @@
                         </div>
 
                     Curti
-                    <div class="lista-item">
+                        <div class="lista-item">
                             <div class="item cap">
                                 <img src="imagem/imagem-52.jpg" alt="Megadimension Neptunia VII">
                             </div>
@@ -72,7 +72,7 @@
 
                     Conquista
                             <div class="conquista">
-                                <img src="imagem/selo.png" alt="">
+                                <img src="imagem/selo.png" alt="selo">
                                 <p>Todas as Conquistas</p>
                             </div>
                         
