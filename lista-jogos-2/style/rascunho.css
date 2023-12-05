@@ -467,16 +467,39 @@ li{
 }
 
 .demo-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 60%;
-    text-align: center;
     padding: 10px;
+    text-align: center;
     border-right: 1px solid black;
 }
 
 .demo-av {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 40%;
     text-align: center;
     padding: 10px;
+}
+
+.demo div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.demo .subtit{
+    height: 40px;
+}
+
+@media screen and (max-width: 370px){
+    .demo div{
+        height: 80px;
+    }
 }
 
 .curti {
