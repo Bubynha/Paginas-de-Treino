@@ -24,6 +24,12 @@ article{
     padding: 10px;
 }
 
+.dado img{
+   border-radius: 10px;
+   border: 1px solid black;
+   box-shadow: 0px 0px 5px 0px;
+}
+
 article h2 {
     font-size: 1.1em;
 }
