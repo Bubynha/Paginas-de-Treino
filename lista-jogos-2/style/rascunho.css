@@ -249,7 +249,6 @@ h3{
     flex-flow: row wrap;
     width: 100%;
 }
-/* __________ */
 
 .cabeca{
     background-image: linear-gradient(to right, #1b1b42,#4242a5);
@@ -363,8 +362,6 @@ h3{
     background-color: #1414d1;
 }
 
-
-
 .conquista p {
     color: white;
 }
@@ -377,6 +374,7 @@ h3{
 .complete{
     padding: 5px;
     width: 100%;
+    align-self: flex-end;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -391,7 +389,6 @@ h3{
     width: 45px;
     height: 45px;
 }
-
 
 .version{
     width: 15%;
@@ -429,10 +426,6 @@ h3{
         border: none;
     }
 }
-
-/* __________ */
-
-
 
 .demo {
     padding: 10px;
