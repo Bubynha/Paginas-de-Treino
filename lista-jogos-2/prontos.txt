@@ -1,24 +1,24 @@
-                    Legalzinho
+                        <!-- ####### -->
                         <div class="lista-item">
                             <div class="item cap">
-                                <img src="imagem/imagem-52.jpg" alt="">
+                                <img src="imagem/imagem-57.jpg" alt="Black Clover Quartet Knights">
                             </div>
                             <div class="item name">
                                 <div class="nome">
-                                    <p>One Piece: Gigant Battle</p>
+                                    <p>#</p>
                                 </div>
-                                <div class="mobi-ava legalzinho">
-                                    <p>Legalzinho</p>
+                                <div class="mobi-ava #">
+                                    <p>#</p>
                                 </div>
                             </div>
                             <div class="item version">
-                                <p>Steam</p>
+                                <p>#</p>
                             </div>
                             <div class="item genero">
-                                <p>Luta</p>
+                                <p>#</p>
                             </div>
-                            <div class="item nota legalzinho">
-                                <p>Legalzinho</p>
+                            <div class="item nota legal">
+                                <p>#</p>
                             </div>
                         </div>
 
