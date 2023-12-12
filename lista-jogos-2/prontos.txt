@@ -1,7 +1,7 @@
                         <!-- ####### -->
                         <div class="lista-item">
                             <div class="item cap">
-                                <img src="imagem/imagem-57.jpg" alt="Black Clover Quartet Knights">
+                                <img src="imagem/22-04.jpg" alt="Black Clover Quartet Knights">
                             </div>
                             <div class="item name">
                                 <div class="nome">
