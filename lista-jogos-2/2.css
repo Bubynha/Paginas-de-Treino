@@ -15,11 +15,14 @@ th {
 
 td{
     border: 1px solid black;
-    width: 200px;
-    height: 20px;
+    width: 50px;
+    height: 110px;
     text-align: center;
 }
 
- img{
-    margin-bottom: -4px;
+  td img{
+    max-width: 50px;
+    max-height:110px;
+    object-fit: cover;
+    
  }
