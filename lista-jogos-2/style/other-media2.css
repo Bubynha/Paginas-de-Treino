@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    span#burguer {
+        display: none;
+    }
+    nav#menu{
+        display: block;
+    }
+
+    nav#menu ul{
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+    }
+    
+    #menu li{
+        width: 100px;
+        border: 1px solid #1b1b42;
+        border-radius: 7px 7px 0px 0px;
+        overflow: hidden;
+        
+    }
+
+    .item-menu :hover {
+        transition: 0.3s;
+    }
+
+    body {
+        background-image: url(../imagem/background-pc.jpg);
+    }
+
+    section {
+        max-width: 900px;
+    }
+
+    .mobi-ava {
+        display: none;
+    }
+
+    .nome{
+        height: 70%;
+    }
+
+    .version, .genero, .nota {
+        display: flex;
+        width: 120px;
+    }
+
+    .lista{
+        width: 90%;
+    }
+
+    .demo{
+        width: 100%;
+    }
+}
