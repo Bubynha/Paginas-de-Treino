@@ -1,28 +1,179 @@
 @charset "UTF-8";
 
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
-table{
+table {
     border-collapse: collapse;
 }
 
-th,td {
-    border: 1px solid Black;
-    width: 100px;
+body {
+    background-color: yellow;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: row wrap;
+
+}
+
+h1 {
+    width: 100%;
+}
+
+.geral-info {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: row wrap;
+    background-color: pink;
+    padding: 10px;
+    width: 100%;
+    margin: 5px;
     text-align: center;
-    height: 30px;
 }
 
-.box-art {
-    width: 70px;
+.a2 {
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    background-color: aquamarine;
+    border: 1px solid black;
 }
 
+.a {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    box-shadow: 0px 0px 5px 0px black;
+}
 
-td img{
-    width: 70px;
+.geral-lista {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    
+}
+
+.geral-item {
+    width: 50%;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: white;
+    box-shadow: 0px 0px 5px 0px black;
+}
+
+.item-nome {
+    border-bottom: 1px solid gray;
+    font-weight: bold;
+    padding: 3px;
+}
+
+.item-dado {
+    padding: 3px;
+}
+
+.tabela {
+    background-color: pink;
+    padding: 10px;
+    width: 100%;
+    margin: 5px;
+}
+
+.lista-jogos {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: row wrap;
+    background-color: aquamarine;
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 5px 0px black;
+    margin: 10px;
+}
+
+/*Tabela Jogos Terminado*/
+
+caption {
+    padding: 10px;
+    font-size: 1.3em;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px black;
+    margin-bottom: 10px;
+    background-color: blue;
+    color: white;
+}
+
+th,td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+th {
+    padding: 5px;
+    height: 20px;
+    background-color: blue;
+    color: white;
+}
+
+.tb1-numero {
+    width: 5px;
+}
+
+.tb1-box-art{
+    width: 55px;
+}
+
+.tb1-nome {
+    width: 200px;
+}
+
+.tb1-genero {
+    width: 150px;
+}
+
+.tb1-versao {
+    width: 120px;
+}
+
+.tb1-curti {
+    width: 140px;
+}
+
+td img {
+    width: 65px;
     height: 100px;
     display: block;
+}
+
+/* Tabela todos os Jogos */
+
+.tb2-nome {
+    width: 350px;
+    padding: 5px;
+}
+
+.tb2-estado {
+    width: 200px;
+    padding: 5px;
 }
