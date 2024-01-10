@@ -4,13 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lista 2024 | Jogando com Bubynha</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <!-- icone do menu-->
+
     <link rel="stylesheet" href="style2.css">
 </head>
 
-<body>
+<body onresize="trocaTamanho()">
     <header>
+        <a href="https://bubynha.github.io/Paginas-de-Treino/lista-jogos-2/home"><img id="logo" src="imagem/logo.png"
+                alt="Logo Jogando com Bunynha" width="100" height="50"></a>
 
+        <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+
+        <nav id="menu">
+            <ul id="menu-item">
+                <li class="item-menu">
+                    <a href="https://bubynha.github.io/Paginas-de-Treino/lista-jogos-2/home">Tela Inicial</a>
+                </li>
+                <li class="item-menu">
+                    <a href="https://bubynha.github.io/Paginas-de-Treino/lista-jogos-2/lista2023">Lista 2023</a>
+                </li>
+                <li class="item-menu">
+                    <a href="https://bubynha.github.io/Paginas-de-Treino/lista-jogos-2/sobre">Sobre</a>
+                </li>
+            </ul>
+        </nav>
     </header>
     <main>
         <section class="geral-info">
@@ -311,8 +331,29 @@
         </section>
     </main>
     <footer>
-
+        <p>Página criada por <a href="https://github.com/Bubynha">Bruno</a></p>
     </footer>
+    <script>
+        // ABRIR E FECHAR MENU
+        function clickMenu() {
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }
+        }
+        // Quando id menu (nav) estiver com style display block, troque para none, se não troque par ablock
+
+        // TROCA DE ESTILO DE MENU PARA TELAS GRANDES
+        function trocaTamanho() {
+            if (window.innerWidth >= 768) {
+                menu.style.display = 'block'
+            } else {
+                menu.style.display = 'none'
+            }
+        }
+        // Quando a janela tiver um tamanho maior que 728px, troque o valor de display do ID Menu (nav) para Block, senão deixe none
+    </script>
 
 </body>
 

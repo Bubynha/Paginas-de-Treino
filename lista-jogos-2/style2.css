@@ -5,12 +5,67 @@
     padding: 0px;
 }
 
+/* --- CABEÇALHO ---*/
+header {
+    background-image: linear-gradient(to right, #1b1b42,#4242a5);
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    box-shadow: 0px 1px 5px 0px black;
+}
+
+img#logo{
+    margin: 5px;
+    width: 200px;
+    height: 100px;
+}
+
+span#burguer {
+    text-align: center;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+    color: white;
+    padding: 5px;
+    font-size: 2em;
+}
+
+nav#menu{
+    width: 100%;
+    display: none;
+}
+
+ul#menu-item{
+    list-style-type: none;
+    display: block;
+}
+
+li.item-menu {
+    background-color: #141430;
+    border-top: 1px solid #4242a5;
+}
+
+.item-menu :hover{
+    background-color: #4242a5;
+}
+
+.item-menu a {
+    width: 100%;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+/* --------------------------------*/
+
 table {
     border-collapse: collapse;
 }
 
 body {
     background-color: yellow;
+    min-height: 100vh;
 }
 
 main {
@@ -199,4 +254,19 @@ td img {
 .tb2-estado {
     width: 200px;
     padding: 5px;
+}
+
+/* ---- RODAPÉ ---- */
+footer{
+    border: 1px solid black;
+    background-image: linear-gradient(to right, #1b1b42,#4242a5);
+    text-align: center;
+    margin-top: auto;
+    padding: 10px;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
 }
