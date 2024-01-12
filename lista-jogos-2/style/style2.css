@@ -5,6 +5,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
     font-family: 'Ubuntu',Arial, Helvetica, sans-serif;
 }
 
@@ -106,6 +107,8 @@ h1 {
     flex-flow: row wrap;
     background-color: rgba(255, 255, 255, 0.747);
     border: 1px solid black;
+    box-shadow: 0px 0px 5px 0px;
+    border-radius: 5px;
 }
 
 .a {
@@ -177,6 +180,8 @@ h1 {
     flex-flow: row wrap;
     background-color: rgba(255, 255, 255, 0.747);
     border: 1px solid black;
+    box-shadow: 0px 0px 5px 0px;
+    border-radius: 5px;
 }
 
 table {
@@ -217,16 +222,17 @@ th {
     color: white;
 }
 
+td {
+    background-color: rgba(255, 255, 255, 0.541);
+}
+
 .tb1-numero {
     width: 5px;
+    
 }
 
 .tb1-box-art{
     width: 55px;
-}
-
-.tb1-nome {
-    width: 200px;
 }
 
 .tb1-genero {
@@ -239,6 +245,12 @@ th {
 
 .tb1-curti {
     width: 140px;
+}
+
+@media screen and (max-width: 768px){
+    .tb1-genero,.tb1-versao,.tb1-curti {
+        display: none;
+    }
 }
 
 td img {
