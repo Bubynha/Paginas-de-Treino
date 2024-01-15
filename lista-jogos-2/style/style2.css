@@ -7,6 +7,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Ubuntu',Arial, Helvetica, sans-serif;
+    
 }
 
 /* --- CABEÇALHO ---*/
@@ -60,6 +61,7 @@ li.item-menu {
     text-decoration: none;
     color: white;
     padding: 10px;
+    text-shadow: 0.2px 0.2px #5f5f5f;
 }
 /* --------------------------------*/
 
@@ -73,6 +75,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     min-height: 100vh;
+    text-shadow: 0.3px 0.3px #5f5f5f;
 }
 
 main {
@@ -122,6 +125,10 @@ h1 {
     box-shadow: 0px 0px 5px 0px black;
 }
 
+.lembrete {
+    font-size: 0.8em;
+}
+
 .geral-lista {
     width: 80%;
     display: flex;
@@ -136,7 +143,7 @@ h1 {
     margin: 5px;
     border: 1px solid black;
     border-radius: 5px;
-    background-color: blueviolet;
+    background-image: linear-gradient(to right, #1b1b42,#4242a5);
     color: white;
     box-shadow: 0px 0px 5px 0px black;
 }
@@ -246,6 +253,27 @@ td {
 .tb1-curti {
     width: 140px;
 }
+ /* Cores da Avaliação */
+
+ .gosto {
+    background-color: #01b5fc;
+ }
+
+ .legal {
+    background-color: #2dfc5a;
+ }
+
+ .legalzinho {
+    background-color: #a1f596;
+ }
+
+ .ok {
+    background-color: yellow;
+ }
+
+ .ruim {
+    background-color: orange;
+ }
 
 @media screen and (max-width: 768px){
     .tb1-genero,.tb1-versao,.tb1-curti {
@@ -271,6 +299,25 @@ td img {
     padding: 5px;
 }
 
+/* Cores status */
+
+.complete{
+    background-color:blue;
+    color: white;
+}
+
+.zerado {
+    background-color: #01b5fc;
+}
+
+.joguei {
+    background-color: #2dfc5a;
+}
+
+.drop{
+    background-color: red;
+    color: white;
+}
 /* ---- RODAPÉ ---- */
 footer{
     border: 1px solid black;
