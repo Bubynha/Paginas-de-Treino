@@ -174,6 +174,28 @@ h1 {
     padding: 3px;
 }
 
+#fav-list{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-flow: row wrap;
+    margin: 5px 0px;
+}
+
+.fav-item{
+    margin: 3px;
+    width: 150px;
+    text-align: center;
+}
+
+.fav-item img {
+    width: 100px;
+    height: 150px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 5px 0px;
+    border-radius: 10px;
+}
+
 .tabela {
     padding: 10px;
     width: 100%;
