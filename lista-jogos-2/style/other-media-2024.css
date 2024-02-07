@@ -30,7 +30,13 @@
     }
 
     .geral-info, .tabela {
-        width: 70%;
+        max-width: 768px;
+    }
+
+    .p-conquista{
+        text-align: center;
+        padding-top: 15px;
+        height: 70px;
     }
 }
 
