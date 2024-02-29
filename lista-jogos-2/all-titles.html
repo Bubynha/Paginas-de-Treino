@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todos os Jogos | Jogando com Bubynha</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <!-- icone do menu-->
+
+    <link rel="shortcut icon" href="imagem/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="style/style2.css">
+    <link rel="stylesheet" href="style/other-media-2024.css">
+</head>
+
+<body onresize="trocaTamanho()">
+    <header>
+        <a href="https://bubynha.github.io/Paginas-de-Treino/lista-jogos-2/home"><img id="logo" src="imagem/logo.png"
+                alt="Logo Jogando com Bunynha" width="100" height="50"></a>
+
+        <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+
+        <nav id="menu">
+            <ul id="menu-item">
+                <li class="item-menu">
+                    <a href="https://bubynha.github.io/Paginas-de-Treino/lista-jogos-2/home" target="_self"
+                        rel="next">Tela Inicial</a>
+                </li>
+                <li class="item-menu">
+                    <a href="https://bubynha.github.io/Paginas-de-Treino/lista-jogos-2/lista2020" target="_self"
+                        rel="next">Lista 2020</a>
+                </li>
+                <li class="item-menu">
+                    <a href="https://bubynha.github.io/Paginas-de-Treino/lista-jogos-2/lista2021" target="_self"
+                        rel="next">Lista 2021</a>
+                </li>
+                <li class="item-menu">
+                    <a href="https://bubynha.github.io/Paginas-de-Treino/lista-jogos-2/lista2022" target="_self"
+                        rel="next">Lista 2022</a>
+                </li>
+                <li class="item-menu">
+                    <a href="https://bubynha.github.io/Paginas-de-Treino/lista-jogos-2/lista2023" target="_self"
+                        rel="next">Lista 2023</a>
+                </li>
+                <li class="item-menu">
+                    <a href="https://bubynha.github.io/Paginas-de-Treino/lista-jogos-2/lista2024" target="_self"
+                        rel="next">Lista 2024</a>
+                </li>
+                <li class="item-menu">
+                    <a href="https://bubynha.github.io/Paginas-de-Treino/lista-jogos-2/sobre" target="_self"
+                        rel="next">Sobre</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="geral-info">
+            <div class="a2">
+                <div class="a">
+                    <h1>
+                        Todos os Jogos
+                    </h1>
+                </div>
+                <p>
+                    Pagina onde listo tudo que joguei em 2024.
+                </p>
+                <p class="lembrete">*A Experiência não reflete a qualidade do jogo,apenas o quanto eu gostei e me
+                    diverti com o jogo.</p>
+            </div>
+        </section>
+        <section class="geral-info">
+            <div class="a2">
+                <div class="a">
+                    <h2>Informações gerais</h2>
+                </div>
+                <div class="geral-lista">
+                    <div class="geral-item">
+                        <p class="item-nome">Jogados</p>
+                        <p class="item-dado">23 Jogos</p>
+                    </div>
+                    <div class="geral-item">
+                        <p class="item-nome">Zerados</p>
+                        <p class="item-dado">16 Jogos</p>
+                    </div>
+                </div>
+                <div class="outras-info">
+                    <div class="info-item complete">
+                        <p class="item-nome">Conquistas/100%</p>
+                        <p class="item-dado">02 Jogos</p>
+                    </div>
+                    <div class="info-item gosto">
+                        <p class="item-nome">Gostei Bastante</p>
+                        <p class="item-dado">04 Jogos</p>
+                    </div>
+                    <div class="info-item legal">
+                        <p class="item-nome">Legal</p>
+                        <p class="item-dado">11 Jogos</p>
+                    </div>
+                    <div class="info-item legalzinho">
+                        <p class="item-nome">Legalzinho</p>
+                        <p class="item-dado">00 Jogos</p>
+                    </div>
+                    <div class="info-item ok">
+                        <p class="item-nome">OK</p>
+                        <p class="item-dado">01 Jogos</p>
+                    </div>
+                    <div class="info-item ruim">
+                        <p class="item-nome">Ruim/Não Gostei</p>
+                        <p class="item-dado">02 Jogos</p>
+                    </div>
+                    <div class="info-item drop">
+                        <p class="item-nome">Dropados</p>
+                        <p class="item-dado">01 Jogos</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="tabela">
+
+            <!-- Tabela jogos terminados
+          // colocar tb1 nas classes-->
+            <div class="lista-jogos">
+                
+                <table>
+                    <caption>
+                        Tabela com todos os jogos 
+                        <div class="lembrete">*Jogos separados por avaliação</div>
+                    </caption>
+                    <thead>
+                        <tr>
+                            <th scope="col" class="tb1-numero">
+                                <p>N°</p>
+                            </th>
+                            <th scope="col" class="tb1-box-art">
+                                <p>Box Art</p>
+                            </th>
+                            <th scope="col" class="tb1-nome-jogo">
+                                <p>Nome</p>
+                            </th>
+                            <th scope="col" class="tb1-genero">
+                                <p>Gênero</p>
+                            </th>
+                            <th scope="col" class="tb1-versao">
+                                <p>Versão Jogada</p>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="ava-nome gosto" colspan="6">Gostei Bastante</td>
+                        </tr>
+                        <tr>
+                            <td class="tb1-numero">
+                                <p>1</p>
+                            </td>
+                            <td class="tb1-box-art">
+                                <img src="imagem/24-01.jpg" alt="DNF Duel">
+                            </td>
+                            <td class="tb1-nome">
+                                <p>DNF Duel <br> (Arcade)</p>
+                            </td>
+                            <td class="tb1-genero">
+                                <p>Luta</p>
+                            </td>
+                            <td class="tb1-versao">
+                                <p>Epic</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tb1-numero">
+                                <p>2</p>
+                            </td>
+                            <td class="tb1-box-art">
+                                <img src="imagem/24-02.jpg" alt="Magical quest 3">
+                            </td>
+                            <td class="tb1-nome">
+                                <p>Mickey to Donald: <br> Magical Adventure 3</p>
+                            </td>
+                            <td class="tb1-genero">
+                                <p>Plataforma</p>
+                            </td>
+                            <td class="tb1-versao">
+                                <p>Super Nintendo</p>
+                            </td>
+                        </tr>
+                        <tr class="ww">
+                            <td class="tb1-numero">
+                                <p>5</p>
+                            </td>
+                            <td class="tb1-box-art">
+                                <img src="imagem/24-05.png" alt="">
+                            </td>
+                            <td class="tb1-nome">
+                                <p>Pokemon Violet The Hidden Treasure of Area Zero: Epilogue </p>
+                            </td>
+                            <td class="tb1-genero">
+                                <p>JRPG</p>
+                            </td>
+                            <td class="tb1-versao">
+                                <p>Nintendo Switch</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ava-nome legal" colspan="6">Legal</td>
+                        </tr>
+                        <tr>
+                            <td class="ava-nome legalzinho" colspan="6">Legalzinho</td>
+                        </tr>
+                        <tr>
+                            <td class="ava-nome ok" colspan="6">Ok</td>
+                        </tr>
+                        <tr>
+                            <td class="ava-nome ruim" colspan="6">Ruim/Não Gostei</td>
+                        </tr>
+                        <tr>
+                            <td class="ava-nome drop" colspan="6">Dropados</td>
+                        </tr>
+                        
+                        <tr class="place">
+                            <td class="tb1-numero">
+                                <p>3</p>
+                            </td>
+                            <td class="tb1-box-art">
+                                <img src="imagem/24-.jpg" alt="">
+                            </td>
+                            <td class="tb1-nome">
+                                <p> - </p>
+                            </td>
+                            <td class="tb1-genero">
+                                <p> - </p>
+                            </td>
+                            <td class="tb1-versao">
+                                <p> - </p>
+                            </td>
+                    </tbody>
+                </table>
+
+                <table>
+                    <caption>
+                        Jogos terminados em 100%/ Todas as conquistas Alcançadas
+                    </caption>
+                    <thead>
+                        <tr>
+                            <th scope="col" class="tb1-numero">
+                                <p>N°</p>
+                            </th>
+                            <th scope="col" class="tb1-box-art">
+                                <p>Box Art</p>
+                            </th>
+                            <th scope="col" class="tb1-nome-jogo">
+                                <p>Nome</p>
+                            </th>
+                            <th scope="col" class="tb1-genero">
+                                <p>Gênero</p>
+                            </th>
+                            <th scope="col" class="tb1-versao">
+                                <p>Versão Jogada</p>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="tb1-numero">
+                                <p>1</p>
+                            </td>
+                            <td class="tb1-box-art">
+                                <img src="imagem/24-01.jpg" alt="DNF Duel">
+                            </td>
+                            <td class="tb1-nome">
+                                <p>DNF Duel <br> (Arcade)</p>
+                            </td>
+                            <td class="tb1-genero">
+                                <p>Luta</p>
+                            </td>
+                            <td class="tb1-versao">
+                                <p>Epic</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tb1-numero">
+                                <p>2</p>
+                            </td>
+                            <td class="tb1-box-art">
+                                <img src="imagem/24-02.jpg" alt="Magical quest 3">
+                            </td>
+                            <td class="tb1-nome">
+                                <p>Mickey to Donald: <br> Magical Adventure 3</p>
+                            </td>
+                            <td class="tb1-genero">
+                                <p>Plataforma</p>
+                            </td>
+                            <td class="tb1-versao">
+                                <p>Super Nintendo</p>
+                            </td>
+                        </tr>
+                        <tr class="ww">
+                            <td class="tb1-numero">
+                                <p>5</p>
+                            </td>
+                            <td class="tb1-box-art">
+                                <img src="imagem/24-05.png" alt="">
+                            </td>
+                            <td class="tb1-nome">
+                                <p>Pokemon Violet The Hidden Treasure of Area Zero: Epilogue </p>
+                            </td>
+                            <td class="tb1-genero">
+                                <p>JRPG</p>
+                            </td>
+                            <td class="tb1-versao">
+                                <p>Nintendo Switch</p>
+                            </td>
+                        </tr>
+                        <tr class="place">
+                            <td class="tb1-numero">
+                                <p>3</p>
+                            </td>
+                            <td class="tb1-box-art">
+                                <img src="imagem/24-.jpg" alt="">
+                            </td>
+                            <td class="tb1-nome">
+                                <p> - </p>
+                            </td>
+                            <td class="tb1-genero">
+                                <p> - </p>
+                            </td>
+                            <td class="tb1-versao">
+                                <p> - </p>
+                            </td>
+                    </tbody>
+                </table>
+
+
+                <!-- Tabela de todos os jogos
+          //colocar tb2 na classe-->
+                <table>
+                    <caption>
+                        Todos o jogos jogados no Ano
+                    </caption>
+                    <thead>
+                        <tr>
+                            <th scope="col" class="tb2-numero">
+                                <p>N°</p>
+                            </th>
+                            <th scope="col" class="tb2-nome">
+                                <p>Nome</p>
+                            </th>
+                            <th scope="col" class="tb2-estado">
+                                <p>Progresso</p>
+                            </th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td class="tb2-numero">
+                                <p>1</p>
+                            </td>
+                            <td class="tb2-nome">
+                                <p>The Lego Movie 2 The Videogame</p>
+                            </td>
+                            <td class="tb2-estado complete">
+                                <p>Todas as Conquista / 100%</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="tb2-numero">
+                                <p>2</p>
+                            </td>
+                            <td class="tb2-nome">
+                                <p>DNF Duel</p>
+                            </td>
+                            <td class="tb2-estado zerado">
+                                <p>Zerado (Arcade/Historia)</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tb2-numero">
+                                <p>3</p>
+                            </td>
+                            <td class="tb2-nome">
+                                <p>Mickey to Donald Magical Adventure 3</p>
+                            </td>
+                            <td class="tb2-estado zerado">
+                                <p>Zerado (Arcade)</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tb2-numero">
+                                <p>4</p>
+                            </td>
+                            <td class="tb2-nome">
+                                <p>Blue Reflection Second Light</p>
+                            </td>
+                            <td class="tb2-estado zerado">
+                                <p>Zerado</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tb2-numero">
+                                <p>5</p>
+                            </td>
+                            <td class="tb2-nome">
+                                <p>Spectral vs Generation</p>
+                            </td>
+                            <td class="tb2-estado drop">
+                                <p>Dropei</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tb2-numero">
+                                <p>6</p>
+                            </td>
+                            <td class="tb2-nome">
+                                <p>Granblue Fantasy Versus: Rising</p>
+                            </td>
+                            <td class="tb2-estado zerado">
+                                <p>Zerado (Arcade)</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tb2-numero">
+                                <p>7</p>
+                            </td>
+                            <td class="tb2-nome">
+                                <p>LEGO Jurassic World</p>
+                            </td>
+                            <td class="tb2-estado zerado">
+                                <p>Zerado</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tb2-numero">
+                                <p>8</p>
+                            </td>
+                            <td class="tb2-nome">
+                                <p>Pokemon Violet <br> the Hidden Treasure of Area Zero: Epilogue</p>
+                            </td>
+                            <td class="tb2-estado zerado">
+                                <p>Zerado</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tb2-numero">
+                                <p>9</p>
+                            </td>
+                            <td class="tb2-nome">
+                                <p>Yu-Gi-Oh! GX Tag Force 3</p>
+                            </td>
+                            <td class="tb2-estado zerado">
+                                <p>Zerado</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tb2-numero">
+                                <p>10</p>
+                            </td>
+                            <td class="tb2-nome">
+                                <p>Sunset Overdrive</p>
+                            </td>
+                            <td class="tb2-estado zerado">
+                                <p>Zerado</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tb2-numero">
+                                <p>11</p>
+                            </td>
+                            <td class="tb2-nome">
+                                <p>Virtua Unlimited Project (DEMO)</p>
+                            </td>
+                            <td class="tb2-estado zerado">
+                                <p>Demo Concluida</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tb2-numero">
+                                <p>12</p>
+                            </td>
+                            <td class="tb2-nome">
+                                <p>Artifact Seeker (DEMO)</p>
+                            </td>
+                            <td class="tb2-estado zerado">
+                                <p>Demo Concluida</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tb2-numero">
+                                <p>13</p>
+                            </td>
+                            <td class="tb2-nome">
+                                <p>Aeruta (DEMO)</p>
+                            </td>
+                            <td class="tb2-estado joguei">
+                                <p>Joguei e gostei</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tb2-numero">
+                                <p>14</p>
+                            </td>
+                            <td class="tb2-nome">
+                                <p>Indika (DEMO)</p>
+                            </td>
+                            <td class="tb2-estado ruim">
+                                <p>Joguei e não gostei</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tb2-numero">
+                                <p>15</p>
+                            </td>
+                            <td class="tb2-nome">
+                                <p>Umbraclaw (DEMO)</p>
+                            </td>
+                            <td class="tb2-estado ruim">
+                                <p>Joguei e não gostei</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tb2-numero">
+                                <p>16</p>
+                            </td>
+                            <td class="tb2-nome">
+                                <p>GUNVOLT RECORDS Cychronicle (DEMO)</p>
+                            </td>
+                            <td class="tb2-estado zerado">
+                                <p>Demo Concluida</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tb2-numero">
+                                <p>17</p>
+                            </td>
+                            <td class="tb2-nome">
+                                <p>Dragonball Xenoverse</p>
+                            </td>
+                            <td class="tb2-estado zerado">
+                                <p>Zerado</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tb2-numero">
+                                <p>18</p>
+                            </td>
+                            <td class="tb2-nome">
+                                <p>Hellblade: Senua's Sacrifice</p>
+                            </td>
+                            <td class="tb2-estado complete">
+                                <p>Todas as Conquista / 100%</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tb2-numero">
+                                <p>19</p>
+                            </td>
+                            <td class="tb2-nome">
+                                <p>Tekken 8 (DEMO)</p>
+                            </td>
+                            <td class="tb2-estado joguei">
+                                <p>Joguei e gostei</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tb2-numero">
+                                <p>20</p>
+                            </td>
+                            <td class="tb2-nome">
+                                <p>Axion of Maria (DEMO)</p>
+                            </td>
+                            <td class="tb2-estado zerado">
+                                <p>Demo Concluída</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tb2-numero">
+                                <p>21</p>
+                            </td>
+                            <td class="tb2-nome">
+                                <p>The Killing Antidote (PLAYTEST)</p>
+                            </td>
+                            <td class="tb2-estado joguei">
+                                <p>Joguei e gostei</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tb2-numero">
+                                <p>22</p>
+                            </td>
+                            <td class="tb2-nome">
+                                <p>Zombie Shooting Star Arcade</p>
+                            </td>
+                            <td class="tb2-estado joguei">
+                                <p>Joguei e gostei</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tb2-numero">
+                                <p>23</p>
+                            </td>
+                            <td class="tb2-nome">
+                                <p>Street Fighter V: Champion Edition</p>
+                            </td>
+                            <td class="tb2-estado zerado">
+                                <p>Zerado (Arcade)</p>
+                            </td>
+                        </tr>
+                        <tr class="place">
+                            <td class="tb2-numero">
+                                <p>14</p>
+                            </td>
+                            <td class="tb2-nome">
+                                <p>Fighting Dimension Neptunia: Hyperdimension Battle</p>
+                            </td>
+                            <td class="tb2-estado">
+                                <p>Sensacionamente Bom</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Página criada por <a href="https://github.com/Bubynha">Bruno</a></p>
+    </footer>
+    <script>
+        // ABRIR E FECHAR MENU
+        function clickMenu() {
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }
+        }
+        // Quando id menu (nav) estiver com style display block, troque para none, se não troque par ablock
+
+        // TROCA DE ESTILO DE MENU PARA TELAS GRANDES
+        function trocaTamanho() {
+            if (window.innerWidth >= 768) {
+                menu.style.display = 'block'
+            } else {
+                menu.style.display = 'none'
+            }
+        }
+        // Quando a janela tiver um tamanho maior que 728px, troque o valor de display do ID Menu (nav) para Block, senão deixe none
+    </script>
+
+</body>
+
+</html>
