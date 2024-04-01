@@ -29,8 +29,12 @@
         background-image: url(../imagem/desktop-background-3.jpg);
     }
 
-    .geral-info, .tabela {
+    .geral-info {
         max-width: 768px;
+    }
+
+    .tabela {
+        max-width: 90%;
     }
 
     .p-conquista{
