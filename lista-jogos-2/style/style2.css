@@ -298,6 +298,22 @@ td {
     width: 140px;
 }
 
+.tb1-meta{
+    width: 10%;
+}
+
+.tb1-nota{
+    width: 6%;
+}
+
+.tb1-gostei{
+    width: 12%;
+}
+
+.tb1-ngostei{
+    width: 12%;
+}
+
 .conquista{
     padding: 5px;
     width: 100%;
@@ -347,7 +363,7 @@ td {
  }
 
 @media screen and (max-width: 768px){
-    .tb1-genero,.tb1-versao,.tb1-curti {
+    .tb1-genero,.tb1-versao,.tb1-curti,.tb1-meta,.tb1-gostei,.tb1-ngostei {
         display: none;
     }
 }
